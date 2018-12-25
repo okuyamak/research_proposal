@@ -1,0 +1,26 @@
+---
+title: "Research Proposal for Sweden"
+author: "Kenta Okuyama"
+date: "12/25/2018"
+output: html_document
+bibliography: bibliography.bib
+---
+
+# Introduction
+Cardio-metabolic diseases[@mason2018associations] is big  
+### 1. What is the central research problem?  
+### 2. What is the topic of study related to that problem?  
+### 3. What methods should be used to analyze the research problem?  
+### 4. Why is this important research, what is its significance, and why should someone reading the proposal care about the outcomes of the proposed study?  
+
+# Background and Significance
+why it's important
+so what?
+
+
+# Aim
+
+# Research Design and Methods
+
+# References
+
