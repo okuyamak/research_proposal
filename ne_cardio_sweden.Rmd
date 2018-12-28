@@ -7,20 +7,27 @@ bibliography: bibliography.bib
 ---
 
 # Introduction
-Cardio-metabolic diseases[@mason2018associations] is big  
-### 1. What is the central research problem?  
-### 2. What is the topic of study related to that problem?  
-### 3. What methods should be used to analyze the research problem?  
-### 4. Why is this important research, what is its significance, and why should someone reading the proposal care about the outcomes of the proposed study?  
+Neighborhood environemnts have been consistently found to have significant impacts on populaiton health[review].
+Numerous studies have found walking-friendly neighborhoods are positively associated with physical activity [review].
+Certain attributes such as residenial density, street connectivity, and land use mix are found to be imporotant elements for physical activity [review].
 
-# Background and Significance
-why it's important
-so what?
+However, the association between neighborhood environment and health outcome such as obesity are still inconsistent[@nieuwenhuijsen2018influence]. Obesity is worldwide issue, lead to cardiovascular disease, need environment and policy level approach... [@gortmaker2011changing]. Mason found that physical activity facilities and lower adiposity for adults in midlife[@mason2018associations].
+However, few studies assessed longitudinal change of neighborhood environment and its effect of longitudinal risk of obesity. Mover-non-mover studies. Barriento found that longitudinal improvement of neighborhood enviroment was related to BMI reduction among obese persons [@barrientos2017neighborhood].  
+
+On the other hand, social capital has been found to have substential impacts on health since 19xx. Although changing physical environments can be often hard due to cost and effort needed, social capital could be reinforced by existing resources. Several studies have found people in higher social capital neghborhood had better health outcome. Hanibuchi and Kawachi found no association between high social capital and high walkability. 
+
+
+### Significance
+Obesogenic environment [@mason2018associations].
+Creating health-promoting neighborhood could improve overall population health.
 
 
 # Aim
+1. longitudinal effect of ne
+2. walkability vs social capital
 
 # Research Design and Methods
+Swedish national cohort dataset
 
 # References
 
