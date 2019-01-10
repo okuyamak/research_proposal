@@ -16,8 +16,19 @@ However, few studies assessed longitudinal change of neighborhood environment an
 
 On the other hand, social capital has been found to have substential impacts on health since 19xx. Although changing physical environments can be often hard due to cost and effort needed, social capital could be reinforced by existing resources. Several studies have found people in higher social capital neghborhood had better health outcome. Hanibuchi and Kawachi found no association between high social capital and high walkability. 
 
+## Litterature review
+### Built environment
 
-### Significance
+
+### Social capital
+Social capital has been defined "features of a social organization, such as trusts, norms, and networks that facilitated cooperation for mutual benefits"[@putnam1994making]. Originally, social capital has been recoginzed as an important determinant for government performance as well as crime prevention and safety[@sampson1989community;@kennedy1981social].It has been found to be an determinant for population health later by @kawachi1997social, whose study first identified the association between social capital level and mortality. Since these first studies on social capital,it has been distinguished into "contexual" and "compositional" effects. Compositional effect refers to individual level effect such as having contacts with friends, relatives and family members, or belongin to social groups. Contexial effect refers to group/area level effect such as mutual trusts, supports, and norms within communities. These measures are usually collected via survey or constructed as a proxy by using census data. An importanthing to consider is the size of area when measuring social capital. Size of the area could be from minimum of individual to neighborhood, city, state, and countries. When measuring contextual effect of social capital, neighborhood is known to be optimal area size because more rapid diffusion of information occurs within smaller areas compared to larger areas. Numerous studies have examined the effect of individual and neighborhood social capital on health since early 2000. 
+
+### Social capital and obesity
+
+
+
+
+# Significance
 Obesogenic environment [@mason2018associations].
 Creating health-promoting neighborhood could improve overall population health.
 
