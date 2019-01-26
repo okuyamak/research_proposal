@@ -1,0 +1,91 @@
+\documentclass[12]{article}
+\usepackage{graphicx} % this is for insert image
+\usepackage{subcaption} %this is for multiple images
+\usepackage[backend=bibtex]{biblatex} %this is needed for bibliograhy for rnw
+\bibliography{bibliography} % name of my bibtex
+
+% echo=F>>=
+% opts_chunk$set(echo=F,message=F,warning=F)
+% @
+
+\title{Research proposal: Neighbordhood environment and obesity}
+\date{2019-01-26}
+\author{Kenta Okuyama}
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\pagenumbering{gobble} %Gobble pagenumber in title page
+\maketitle
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+  
+\section{Introduction} %Biggest section
+\paragraph{}
+Neighborhood environemnts have been consistently found to have significant impacts on populaiton health[review]. Numerous studies have found walking-friendly neighborhoods are positively associated with physical activity [review]. Certain attributes such as residenial density, street connectivity, and land use mix are found to be imporotant elements for physical activity [review]. However, few studies assessed longitudinal change of neighborhood environment and its effect of longitudinal risk of obesity. Barriento found that longitudinal improvement of neighborhood enviroment was related to BMI reduction among obese persons\cite{barrientos2017neighborhood}. However, the association between neighborhood environment and health outcome such as obesity are still inconsistent\cite{nieuwenhuijsen2018influence}. Obesity is worldwide issue, lead to cardiovascular disease, need environment and policy level approach... \cite{gortmaker2011changing}. Mason found that physical activity facilities and lower adiposity for adults in midlife\cite{mason2018associations}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\linewidth]{graph/dag1.png}
+\caption{Directed Acyclic Graph for neighbrhood envrionments and obesity}
+\label{fig:dag}
+\end{figure}
+
+<<eval=F, fig.width=4, fig.height=4, fig.align='center'>>=
+library(dagitty)
+library(ggdag)
+dag <- dagitty("dag{y <- z -> x}")
+dag1 <- ggdag(dag, layout = "circle")
+ggsave("graph/dag1.png")
+@
+
+
+\paragraph{}
+On the other hand, social capital has been found to have substential impacts on health since 19xx. Although changing physical environments can be often hard due to cost and effort needed, social capital could be reinforced by existing resources. Several studies have found people in higher social capital neghborhood had better health outcome. Hanibuchi and Kawachi found no association between high social capital and high walkability. 
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{graph/flight_geneva.PNG}
+    \caption{A boat.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{graph/flight_geneva.PNG}
+    \caption{Not a boat.}
+  \end{subfigure}
+  \caption{Two figures in line}
+  \label{fig:flight}
+\end{figure}  
+
+\section{Litterature review}
+\subsection{Physical environments}
+\paragraph{}
+Originally, physical environments have been identified as one of the important determinants on human behaviors based on ecological and socio-ecological model which had evlolved in the late 1900s[mcleroy1988;sallis1996]. Ecological model specifies levels of influence on behavior, from individual, institutional, community, enviornmental, and policy factors[mcleroy1988].Although there were growing recognitions for the potential effect of environment and policy interventions in the population level, few interventons have been applied to the control of chronic diseases as of late 1900s[schmid1995]. It is often challenging to implement environment and policy level interventions as it requires substential investiments and collaboratons in various sectors (e.g.health, transportation,and urban planning).Numerous efforts have been made to put it foward by sallis1998 specific to physical activity to stimulate more research in this field in order to accumulate sufficient evidences for enviornment and policy changes. Since early 2000s, neighborhood research have been accelerated, especially because technologies made it possible to assess physical environment, i.e. geographic information system (GIS). GIS, which used to be utilized in the field of geographics and urban planning to evaluate geography and structure of cities by numerical data, had been incoorporated into health field [frank2005]. Collaboration with urban planning and health fields put emphasis on the need of creating "walkable" neighborhoods by focussing on human-made built environments, which had been already recognized for safety perspective, such as New Urbanism, or Smart Growth America. Numerous research have been conducted worldwide to examine association between physical activity, chronic conditions and physical environments. Several places such as XXX impletemented environment intervention based on these research evidences.  
+
+It needs experimental or quasi-experimental studies to reveal the causal relationship.
+
+\subsection{Social capital}
+\paragraph{}
+Social capital has been defined "features of a social organization, such as trusts, norms, and networks that facilitated cooperation for mutual benefits"\cite{putnam1994making}. Originally, social capital has been recoginzed as an important determinant for government performance as well as crime prevention and safety\cite{sampson1989community;kennedy1981social}.It has been found to be an determinant for population health later by \cite{kawachi1997social}, whose study first identified the association between social capital level and mortality. Since these first studies on social capital,it has been distinguished into "contexual" and "compositional" effects. Compositional effect refers to individual level effect such as having contacts with friends, relatives and family members, or belongin to social groups. Contexial effect refers to group/area level effect such as mutual trusts, supports, and norms within communities. These measures are usually collected via survey or constructed as a proxy by using census data. An importanthing to consider is the size of area when measuring social capital. Size of the area could be from minimum of individual to neighborhood, city, state, and countries. When measuring contextual effect of social capital, neighborhood is known to be optimal area size because more rapid diffusion of information occurs within smaller areas compared to larger areas. Numerous studies have examined the effect of individual and neighborhood social capital on health since early 2000. 
+
+\subsection{Obesity}
+\paragraph{}
+Subparagraph can be used to quote something like "Definition of physical environments or socio-ecological model goes here"
+
+\section{Significance and Aims}
+\paragraph{}
+Creating health-promoting neighborhood could improve overall population health. There are following aims. 
+
+\begin{itemize}
+	\item One
+	\item Two
+	\item Three
+\end{itemize}
+
+\section{Methods}
+
+\newpage
+
+\printbibliography   
+\end{document}
