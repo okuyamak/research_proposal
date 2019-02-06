@@ -23,22 +23,92 @@
   
 \section{Introduction} %Biggest section
 \paragraph{}
-Neighborhood environemnts have been consistently found to have significant impacts on populaiton health[review]. Numerous studies have found walking-friendly neighborhoods are positively associated with physical activity [review]. Certain attributes such as residenial density, street connectivity, and land use mix are found to be imporotant elements for physical activity [review]. However, few studies assessed longitudinal change of neighborhood environment and its effect of longitudinal risk of obesity. Barriento found that longitudinal improvement of neighborhood enviroment was related to BMI reduction among obese persons\cite{barrientos2017neighborhood}. However, the association between neighborhood environment and health outcome such as obesity are still inconsistent\cite{nieuwenhuijsen2018influence}. Obesity is worldwide issue, lead to cardiovascular disease, need environment and policy level approach... \cite{gortmaker2011changing}. Mason found that physical activity facilities and lower adiposity for adults in midlife\cite{mason2018associations}.
+Obesity can lead to serious negative consequences, such as type 2 diabetes and cardiovascular disease, and its prevalnce has been increasing worldwide\cite{ng2014;flegal2002}. Environmental and policy interventions are now recognized as an urgent approach to combat the global obesity epidemic\cite{gortmaker2012changing}. Although numerous research has been done on the influence of environmental features on obesity, there is no consistent evidence\cite{papas2010;machenbach2014}. One of the major challenges is that majority of the studies are conducted cross-sectionally, thereby causal relationship has not been elucidated yet. A few recent studies found a significant association between neighborhood  physical environment features and obesity among mid-life to older adults\cite{mason2018:barrientos2017neighborhood}. For example, Mason et al. found that both density of physical activity facilities and proximity to fastfood outlets were associated with adiposity in the expected direction among nation-wide adults cohort in UK. Barrientos et al. found that improvement of neighborhood enviroment in promoting both healthy eating and physical activity was related to BMI reduction among obese persons\cite{barrientos2017neighborhood}. This was the first preliminary finding for the association between longitudinal changes of physical environment and BMI. However, despite these recent findings, the association between neighborhood physical environment and obesity are still unclear\cite{nieuwenhuijsen2018influence}. This is mainly because complex mechanism for the incidence of obesity due to numerous factors that can affect energy inbalance for diet and physical activity, such as socio-economic status, neighborhood deprivation, and genetic risk factors (Figure 1). Lacking or inappropriate control for any of these factors would lead biased findings for the influence of neighborhood environment on obesity. Those recent studies were either lacking of control for any of the factors, such as neighborhood deprivation, or conducted corss-sectionally. As another reason, there are often umeasured factors that could infulence obesity within neighborhood studies. For example, not only physical environment, but asl social environments are known to affect on physical activity and obeisty through different pathway\cite{Carrillo2018}. From these background, this study consists of two aims.
+
+\begin{itemize}
+	\item 1. Examine the longitudinal association between changes in neighborhood physical environment (food and physical activity) and obesity.
+	\item 2. Examine the association between neighborhood neighborhood physical environment and its interaction with social environment on obesity.
+\end{itemize}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\linewidth]{graph/dag1.png}
-\caption{Directed Acyclic Graph for neighbrhood envrionments and obesity}
+\caption{Directed acyclic graph for neighbrhood envrionments and obesity}
 \label{fig:dag}
 \end{figure}
 
-<<eval=F, fig.width=4, fig.height=4, fig.align='center'>>=
+
+Furthermore, the methods of evaluating physical activity environment (PA environment) are inconsistent across studies 
+
+<<echo=F, fig.width=4, fig.height=4, fig.align='center'>>=
 library(dagitty)
 library(ggdag)
-dag <- dagitty("dag{y <- z -> x}")
-dag1 <- ggdag(dag, layout = "circle")
-ggsave("graph/dag1.png")
+### DAG for overall
+obesity_dag1 <- dagify(obesity ~ pa + diet + genetic + age,
+                      pa ~ pane + ses + genetic + deprivation + age,
+                      diet ~ foodne + ses + genetic + deprivation + age,
+                      pane ~ ses + age + deprivation,
+                      foodne ~ ses,
+                      labels = c("obesity" = "Obesity",
+                                 "pa" = "Physical activity",
+                                 "diet" = "Diet",
+                                 "genetic" = "Genetic risk",
+                                 "age" = "Age, Sex, Race",
+                                 "pane" = "PA environment",
+                                 "foodne" = "Food environment",
+                                 "ses" = "SES",
+                                 "deprivation" = "Neighborhood deprivation"),
+                      exposure = "pane",
+                      outcome = "obesity") %>%
+  tidy_dagitty()
+
+ggdag(obesity_dag1, text = FALSE, use_labels = "label")+
+  theme(legend.position = "bottom")+
+  ggsave("graph/dag1.png")
+
+### DAG for physical activity environment
+obesity_dag2 <- dagify(obesity ~ pa + genetic + age,
+                      pa ~ pane + ses + genetic + deprivation + age,
+                      pane ~ ses + age + deprivation,
+                      labels = c("obesity" = "Obesity",
+                                 "pa" = "Physical activity",
+                                 "genetic" = "Genetic risk",
+                                 "age" = "Age, Sex, Race",
+                                 "pane" = "PA environment",
+                                 "ses" = "SES",
+                                 "deprivation" = "Neighborhood deprivation"),
+                      exposure = "pane",
+                      outcome = "obesity") %>%
+  tidy_dagitty()
+
+ggdag_adjustment_set(obesity_dag2, node_size = 15 ,text = FALSE, use_labels = "label")+
+  theme(legend.position = "bottom")+
+  ggsave("graph/dag2.png")
+
+### DAG for food environment
+obesity_dag3 <- dagify(obesity ~ diet + genetic + age,
+                      diet ~ foodne + ses + genetic + deprivation + age,
+                      foodne ~ ses + age + deprivation,
+                      labels = c("obesity" = "Obesity",
+                                 "diet" = "Diet",
+                                 "genetic" = "Genetic risk",
+                                 "age" = "Age, Sex, Race",
+                                 "foodne" = "Food environment",
+                                 "ses" = "SES",
+                                 "deprivation" = "Neighborhood deprivation"),
+                      exposure = "foodne",
+                      outcome = "obesity") %>%
+  tidy_dagitty()
+ggdag_adjustment_set(obesity_dag3, node_size = 15 ,text = FALSE, use_labels = "label")+
+  theme(legend.position = "bottom")+
+  ggsave("graph/dag3.png")
+
+
+# ggdag_paths(obesity_dag, text = FALSE, use_labels = "label")
+# ggdag_dseparated(obesity_dag, controlling_for = c("ses","genetic","age"),text = FALSE, use_labels = "label", collider_lines = TRUE)
+
 @
+
 
 
 \paragraph{}
@@ -47,23 +117,25 @@ On the other hand, social capital has been found to have substential impacts on 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{graph/flight_geneva.PNG}
-    \caption{A boat.}
+    \includegraphics[width=\linewidth]{graph/dag2.png}
+    \caption{DAG for physical activity enviornment and obesity.}
   \end{subfigure}
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{graph/flight_geneva.PNG}
-    \caption{Not a boat.}
+    \includegraphics[width=\linewidth]{graph/dag3.png}
+    \caption{DAG for food environment and obesity}
   \end{subfigure}
   \caption{Two figures in line}
   \label{fig:flight}
 \end{figure}  
+
+\newpage
 
 \section{Litterature review}
 \subsection{Physical environments}
 \paragraph{}
 Originally, physical environments have been identified as one of the important determinants on human behaviors based on ecological and socio-ecological model which had evlolved in the late 1900s[mcleroy1988;sallis1996]. Ecological model specifies levels of influence on behavior, from individual, institutional, community, enviornmental, and policy factors[mcleroy1988].Although there were growing recognitions for the potential effect of environment and policy interventions in the population level, few interventons have been applied to the control of chronic diseases as of late 1900s[schmid1995]. It is often challenging to implement environment and policy level interventions as it requires substential investiments and collaboratons in various sectors (e.g.health, transportation,and urban planning).Numerous efforts have been made to put it foward by sallis1998 specific to physical activity to stimulate more research in this field in order to accumulate sufficient evidences for enviornment and policy changes. Since early 2000s, neighborhood research have been accelerated, especially because technologies made it possible to assess physical environment, i.e. geographic information system (GIS). GIS, which used to be utilized in the field of geographics and urban planning to evaluate geography and structure of cities by numerical data, had been incoorporated into health field [frank2005]. Collaboration with urban planning and health fields put emphasis on the need of creating "walkable" neighborhoods by focussing on human-made built environments, which had been already recognized for safety perspective, such as New Urbanism, or Smart Growth America. Numerous research have been conducted worldwide to examine association between physical activity, chronic conditions and physical environments. Several places such as XXX impletemented environment intervention based on these research evidences.  
 
-It needs experimental or quasi-experimental studies to reveal the causal relationship.
+
 
 \subsection{Social capital}
 \paragraph{}
