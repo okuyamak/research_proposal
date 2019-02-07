@@ -2,7 +2,8 @@
 \usepackage{graphicx} % this is for insert image
 \usepackage{subcaption} %this is for multiple images
 \usepackage[backend=bibtex]{biblatex} %this is needed for bibliograhy for rnw
-\bibliography{bibliography} % name of my bibtex
+
+\bibliography{ResearchProp} % name of my bibtex
 
 % echo=F>>=
 % opts_chunk$set(echo=F,message=F,warning=F)
@@ -23,32 +24,25 @@
   
 \section{Introduction} %Biggest section
 \paragraph{}
-Obesity can lead to serious negative consequences, such as type 2 diabetes and cardiovascular disease, and its prevalnce has been increasing worldwide\cite{ng2014;flegal2002}. Environmental and policy interventions are now recognized as an urgent approach to combat the global obesity epidemic\cite{gortmaker2012changing}. Although numerous research has been done on the influence of environmental features on obesity, there is no consistent evidence\cite{papas2010;machenbach2014}. One of the major challenges is that majority of the studies are conducted cross-sectionally, thereby causal relationship has not been elucidated yet. A few recent studies found a significant association between neighborhood  physical environment features and obesity among mid-life to older adults\cite{mason2018:barrientos2017neighborhood}. For example, Mason et al. found that both density of physical activity facilities and proximity to fastfood outlets were associated with adiposity in the expected direction among nation-wide adults cohort in UK. Barrientos et al. found that improvement of neighborhood enviroment in promoting both healthy eating and physical activity was related to BMI reduction among obese persons\cite{barrientos2017neighborhood}. This was the first preliminary finding for the association between longitudinal changes of physical environment and BMI. However, despite these recent findings, the association between neighborhood physical environment and obesity are still unclear\cite{nieuwenhuijsen2018influence}. This is mainly because complex mechanism for the incidence of obesity due to numerous factors that can affect energy inbalance for diet and physical activity, such as socio-economic status, neighborhood deprivation, and genetic risk factors (Figure 1). Lacking or inappropriate control for any of these factors would lead biased findings for the influence of neighborhood environment on obesity. Those recent studies were either lacking of control for any of the factors, such as neighborhood deprivation, or conducted corss-sectionally. As another reason, there are often umeasured factors that could infulence obesity within neighborhood studies. For example, not only physical environment, but asl social environments are known to affect on physical activity and obeisty through different pathway\cite{Carrillo2018}. From these background, this study consists of two aims.
+Obesity can lead to serious negative consequences, such as type 2 diabetes and cardiovascular disease, and its prevalnce has been increasing worldwide \cite{ng2014global,flegal2002prevalence}. Environmental and policy interventions are now recognized as an urgent approach to combat the global obesity epidemic \cite{gortmaker2011changing}. Although numerous research have been done on the influence of environmental features on obesity, there is no consistent evidence \cite{papas2007built,mackenbach2014obesogenic}. One of the major challenges is that majority of the studies were conducted cross-sectionally, thereby causal relationship has not been elucidated yet. A few recent studies found a significant association between neighborhood  physical environment features and obesity among mid-life to older adults \cite{mason2018associations,barrientos2017neighborhood}. For example, Mason et al. found that both density of physical activity facilities and proximity to fastfood outlets were associated with adiposity in the expected direction among nation-wide adults cohort in UK. Barrientos et al. found that improvement of neighborhood enviroment in promoting both healthy eating and physical activity was related to BMI reduction among obese persons \cite{barrientos2017neighborhood}. This was the first preliminary finding for the association between longitudinal changes of physical environment and BMI. However, despite these recent findings, the association between neighborhood physical environment and obesity are still unclear \cite{nieuwenhuijsen2018influence}. This is mainly because complex mechanism for the incidence of obesity due to numerous factors that can affect energy inbalance for diet and physical activity, such as socio-economic status, neighborhood deprivation, and genetic risk factors (Figure 1). Lacking or inappropriate control for any of these factors would lead biased findings for the influence of neighborhood environment on obesity. Those recent studies were either lacking of control for any of the factors, such as neighborhood deprivation, or conducted corss-sectionally. 
+\paragraph{}
+As another reason why the association between neighborhood envrionment and obesity is unclear, there are often umeasured factors that could infulence obesity within neighborhood studies. For example, there is a growing body of evidences that not only physical environment, but also social environments might affect on physical activity and obeisty through different pathways \cite{carrillo2019neighbourhood,suglia2016neighborhood}. Social environments are often measured by social capital which refers to mutual trust, supports, and participation of social activity among neighborhoods \cite{kawachi1997social}. Several studies have examined the association between social capital and obesity, yet envidence for this association has been inconsistent \cite{carrillo2019neighbourhood}. A few studies have investigated whether neighborhood social capital and physical environment was associated to each other, but findings are inconsistent \cite{leyden2003social,hanibuchi2012does}. Although both physical environment and social environment are both factors in the upstream for the obesity related behaviors, few studies have examined which factor affect on obesity more than the other. From these background, this study consists of two aims.
 
-\begin{itemize}
-	\item 1. Examine the longitudinal association between changes in neighborhood physical environment (food and physical activity) and obesity.
-	\item 2. Examine the association between neighborhood neighborhood physical environment and its interaction with social environment on obesity.
-\end{itemize}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\linewidth]{graph/dag1.png}
-\caption{Directed acyclic graph for neighbrhood envrionments and obesity}
-\label{fig:dag}
-\end{figure}
-
-
-Furthermore, the methods of evaluating physical activity environment (PA environment) are inconsistent across studies 
+\paragraph{Aim 1}
+Examine the longitudinal association between changes in neighborhood physical environment (food and physical activity) and obesity.
+\paragraph{Aim 2}
+Examine the association between neighborhood physical environment and its interaction with social environment on obesity.
 
 <<echo=F, fig.width=4, fig.height=4, fig.align='center'>>=
 library(dagitty)
 library(ggdag)
 ### DAG for overall
 obesity_dag1 <- dagify(obesity ~ pa + diet + genetic + age,
-                      pa ~ pane + ses + genetic + deprivation + age,
-                      diet ~ foodne + ses + genetic + deprivation + age,
+                      pa ~ pane + se + ses + genetic + deprivation + age,
+                      diet ~ foodne + se + ses + genetic + deprivation + age,
                       pane ~ ses + age + deprivation,
-                      foodne ~ ses,
+                      foodne ~ ses + age + deprivation,
+                      se ~ ses + age + deprivation,
                       labels = c("obesity" = "Obesity",
                                  "pa" = "Physical activity",
                                  "diet" = "Diet",
@@ -56,6 +50,7 @@ obesity_dag1 <- dagify(obesity ~ pa + diet + genetic + age,
                                  "age" = "Age, Sex, Race",
                                  "pane" = "PA environment",
                                  "foodne" = "Food environment",
+                                 "se" = "Social environment",
                                  "ses" = "SES",
                                  "deprivation" = "Neighborhood deprivation"),
                       exposure = "pane",
@@ -109,10 +104,46 @@ ggdag_adjustment_set(obesity_dag3, node_size = 15 ,text = FALSE, use_labels = "l
 
 @
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\linewidth]{graph/dag1.png}
+\caption{Directed acyclic graph for neighbrhood envrionments and obesity}
+\label{fig:dag}
+\end{figure}
 
 
+
+\newpage
+
+\section{Litterature review}
+\subsection{Physical environments}
 \paragraph{}
-On the other hand, social capital has been found to have substential impacts on health since 19xx. Although changing physical environments can be often hard due to cost and effort needed, social capital could be reinforced by existing resources. Several studies have found people in higher social capital neghborhood had better health outcome. Hanibuchi and Kawachi found no association between high social capital and high walkability. 
+Originally, physical environments have been identified as one of the important determinants on human behaviors based on ecological and socio-ecological model which had evlolved in the late 1900s \cite{mcleroy1988ecological,sallis1998environmental}. Ecological model specifies levels of influence on behavior, from individual, institutional, community, enviornmental, and policy factors \cite{mcleroy1988ecological}.Although there were growing recognitions for the potential effect of environment and policy interventions in the population level, few interventons have been applied to the control of chronic diseases as of late 1900s \cite{schmid1995policy}. It is often challenging to implement environment and policy level interventions as it requires substential investiments and collaborations in various sectors (e.g.health, transportation,and urban planning).
+
+Numerous efforts have been made to put it foward by  \cite{sallis1998environmental} specific to physical activity to stimulate more research in this field in order to accumulate sufficient evidences for enviornment and policy changes. 
+\paragraph{}
+Since early 2000s, neighborhood research have been accelerated, especially because technologies made it possible to assess physical environment, i.e. geographic information system (GIS). GIS, which used to be utilized in the field of geographics and urban planning to evaluate geography and structure of cities by numerical data, had been incoorporated into health field  \cite{frank2005linking}. Collaboration with urban planning and health fields put emphasis on the need of creating "walkable" neighborhoods by focussing on human-made built environments, which had been already recognized for safety perspective, such as New Urbanism, or Smart Growth America. Numerous research have been conducted worldwide to examine association between physical activity, chronic conditions and physical environments. Several places such as XXX impletemented environment intervention based on these research evidences.  
+
+
+
+\subsection{Social capital}
+\paragraph{}
+Social capital has been defined "features of a social organization, such as trusts, norms, and networks that facilitated cooperation for mutual benefits" \cite{krouwel1995making}. Originally, social capital has been recoginzed as an important determinant for government performance as well as crime prevention and safety \cite{sampson1989community}.It has been found to be an determinant for population health later by  \cite{kawachi1997social}, whose study first identified the association between social capital level and mortality. Since these first studies on social capital,it has been distinguished into "contexual" and "compositional" effects. Compositional effect refers to individual level effect such as having contacts with friends, relatives and family members, or belongin to social groups. Contexial effect refers to group/area level effect such as mutual trusts, supports, and norms within communities. These measures are usually collected via survey or constructed as a proxy by using census data. An important thing to consider is the size of area when measuring social capital. Size of the area could be from minimum of individual to neighborhood, city, state, and countries. When measuring contextual effect of social capital, neighborhood is known to be optimal area size because more rapid diffusion of information occurs within smaller areas compared to larger areas. Numerous studies have examined the effect of individual and neighborhood social capital on health since early 2000. 
+
+
+\section{Aims and Significance}
+\paragraph{Aim 1}
+Examining the casual relationship between physical environment and obesity would reinforce the evidence that emphasize the needs of environmental and policy interventions. 
+
+\paragraph{Aim 2}
+Examining the effect of physical environment and social environment could infer efficient and cost-effective approach to reduce the risk of obesity.
+
+\section{Methods}
+\subsection{Aim 1: longitudinal changes of neighborhood physical envionment and obesity}
+  \begin{description}
+    \item[Study sample] Nationwide sample of men and women from a national Swedish resarch database.
+    \item[Analysis] Temporal neighborhood walkability index and proximity to fast food outlets calculated by GIS would be used as primary exposure for obesity. Each exposure would be examined by separete models to predict the effect of each exposure on obesity (Figure 2).  
+  \end{description}
 
 \begin{figure}[h!]
   \centering
@@ -128,36 +159,13 @@ On the other hand, social capital has been found to have substential impacts on 
   \label{fig:flight}
 \end{figure}  
 
-\newpage
-
-\section{Litterature review}
-\subsection{Physical environments}
-\paragraph{}
-Originally, physical environments have been identified as one of the important determinants on human behaviors based on ecological and socio-ecological model which had evlolved in the late 1900s[mcleroy1988;sallis1996]. Ecological model specifies levels of influence on behavior, from individual, institutional, community, enviornmental, and policy factors[mcleroy1988].Although there were growing recognitions for the potential effect of environment and policy interventions in the population level, few interventons have been applied to the control of chronic diseases as of late 1900s[schmid1995]. It is often challenging to implement environment and policy level interventions as it requires substential investiments and collaboratons in various sectors (e.g.health, transportation,and urban planning).Numerous efforts have been made to put it foward by sallis1998 specific to physical activity to stimulate more research in this field in order to accumulate sufficient evidences for enviornment and policy changes. Since early 2000s, neighborhood research have been accelerated, especially because technologies made it possible to assess physical environment, i.e. geographic information system (GIS). GIS, which used to be utilized in the field of geographics and urban planning to evaluate geography and structure of cities by numerical data, had been incoorporated into health field [frank2005]. Collaboration with urban planning and health fields put emphasis on the need of creating "walkable" neighborhoods by focussing on human-made built environments, which had been already recognized for safety perspective, such as New Urbanism, or Smart Growth America. Numerous research have been conducted worldwide to examine association between physical activity, chronic conditions and physical environments. Several places such as XXX impletemented environment intervention based on these research evidences.  
-
-
-
-\subsection{Social capital}
-\paragraph{}
-Social capital has been defined "features of a social organization, such as trusts, norms, and networks that facilitated cooperation for mutual benefits"\cite{putnam1994making}. Originally, social capital has been recoginzed as an important determinant for government performance as well as crime prevention and safety\cite{sampson1989community;kennedy1981social}.It has been found to be an determinant for population health later by \cite{kawachi1997social}, whose study first identified the association between social capital level and mortality. Since these first studies on social capital,it has been distinguished into "contexual" and "compositional" effects. Compositional effect refers to individual level effect such as having contacts with friends, relatives and family members, or belongin to social groups. Contexial effect refers to group/area level effect such as mutual trusts, supports, and norms within communities. These measures are usually collected via survey or constructed as a proxy by using census data. An importanthing to consider is the size of area when measuring social capital. Size of the area could be from minimum of individual to neighborhood, city, state, and countries. When measuring contextual effect of social capital, neighborhood is known to be optimal area size because more rapid diffusion of information occurs within smaller areas compared to larger areas. Numerous studies have examined the effect of individual and neighborhood social capital on health since early 2000. 
-
-\subsection{Obesity}
-\paragraph{}
-Subparagraph can be used to quote something like "Definition of physical environments or socio-ecological model goes here"
-
-\section{Significance and Aims}
-\paragraph{}
-Creating health-promoting neighborhood could improve overall population health. There are following aims. 
-
-\begin{itemize}
-	\item One
-	\item Two
-	\item Three
-\end{itemize}
-
-\section{Methods}
+\subsection{Aim 2: interaction effect of physial environment and social environment on obesity}
+  \begin{description}
+    \item[Study sample] Nationwide sample of men and women from a national Swedish resarch database.
+    \item[Analysis] Using neighborhood proportion of voting as a proxy for social capital, examine its effect on adults' obesity and its interaction with physical environment.  
+  \end{description}
 
 \newpage
 
-\printbibliography   
+\printbibliography
 \end{document}
