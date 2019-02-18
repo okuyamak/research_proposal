@@ -14,8 +14,9 @@
 \author{Kenta Okuyama}
 
 
+\usepackage{Sweave}
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+\input{ne_cardio-concordance}
 \pagenumbering{gobble} %Gobble pagenumber in title page
 \maketitle
 \tableofcontents
@@ -33,76 +34,6 @@ Examine the longitudinal association between changes in neighborhood physical en
 \paragraph{Aim 2}
 Examine the association between neighborhood physical environment and its interaction with social environment on obesity.
 
-<<echo=F, fig.width=4, fig.height=4, fig.align='center'>>=
-library(dagitty)
-library(ggdag)
-### DAG for overall
-obesity_dag1 <- dagify(obesity ~ pa + diet + genetic + age,
-                      pa ~ pane + se + ses + genetic + deprivation + age,
-                      diet ~ foodne + se + ses + genetic + deprivation + age,
-                      pane ~ ses + age + deprivation,
-                      foodne ~ ses + age + deprivation,
-                      se ~ ses + age + deprivation,
-                      labels = c("obesity" = "Obesity",
-                                 "pa" = "Physical activity",
-                                 "diet" = "Diet",
-                                 "genetic" = "Genetic risk",
-                                 "age" = "Age, Sex, Race",
-                                 "pane" = "PA environment",
-                                 "foodne" = "Food environment",
-                                 "se" = "Social environment",
-                                 "ses" = "SES",
-                                 "deprivation" = "Neighborhood deprivation"),
-                      exposure = "pane",
-                      outcome = "obesity") %>%
-  tidy_dagitty()
-
-ggdag(obesity_dag1, text = FALSE, use_labels = "label")+
-  theme(legend.position = "bottom")+
-  ggsave("graph/dag1.png")
-
-### DAG for physical activity environment
-obesity_dag2 <- dagify(obesity ~ pa + genetic + age,
-                      pa ~ pane + ses + genetic + deprivation + age,
-                      pane ~ ses + age + deprivation,
-                      labels = c("obesity" = "Obesity",
-                                 "pa" = "Physical activity",
-                                 "genetic" = "Genetic risk",
-                                 "age" = "Age, Sex, Race",
-                                 "pane" = "PA environment",
-                                 "ses" = "SES",
-                                 "deprivation" = "Neighborhood deprivation"),
-                      exposure = "pane",
-                      outcome = "obesity") %>%
-  tidy_dagitty()
-
-ggdag_adjustment_set(obesity_dag2, node_size = 15 ,text = FALSE, use_labels = "label")+
-  theme(legend.position = "bottom")+
-  ggsave("graph/dag2.png")
-
-### DAG for food environment
-obesity_dag3 <- dagify(obesity ~ diet + genetic + age,
-                      diet ~ foodne + ses + genetic + deprivation + age,
-                      foodne ~ ses + age + deprivation,
-                      labels = c("obesity" = "Obesity",
-                                 "diet" = "Diet",
-                                 "genetic" = "Genetic risk",
-                                 "age" = "Age, Sex, Race",
-                                 "foodne" = "Food environment",
-                                 "ses" = "SES",
-                                 "deprivation" = "Neighborhood deprivation"),
-                      exposure = "foodne",
-                      outcome = "obesity") %>%
-  tidy_dagitty()
-ggdag_adjustment_set(obesity_dag3, node_size = 15 ,text = FALSE, use_labels = "label")+
-  theme(legend.position = "bottom")+
-  ggsave("graph/dag3.png")
-
-
-# ggdag_paths(obesity_dag, text = FALSE, use_labels = "label")
-# ggdag_dseparated(obesity_dag, controlling_for = c("ses","genetic","age"),text = FALSE, use_labels = "label", collider_lines = TRUE)
-
-@
 
 \begin{figure}[h!]
 \centering

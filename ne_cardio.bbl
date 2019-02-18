@@ -1,0 +1,1292 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{ng2014global}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=NM}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fleming},
+         familyi={F\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Margaret},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Thomson},
+         familyi={T\bibinitperiod},
+         given={Blake},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Graetz},
+         familyi={G\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Margono},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MEC}{%
+         family={Mullany},
+         familyi={M\bibinitperiod},
+         given={Erin\bibnamedelima C},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biryukov},
+         familyi={B\bibinitperiod},
+         given={Stan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Abbafati},
+         familyi={A\bibinitperiod},
+         given={Cristiana},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ASF}{%
+         family={Abera},
+         familyi={A\bibinitperiod},
+         given={Semaw\bibnamedelima Ferede},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{NM+1}
+    \strng{fullhash}{NMFTRMTBGNMCMECBSACASF+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9945}
+    \field{pages}{766\bibrangedash 781}
+    \field{title}{Global, regional, and national prevalence of overweight and
+  obesity in children and adults during 1980--2013: a systematic analysis for
+  the Global Burden of Disease Study 2013}
+    \field{volume}{384}
+    \field{journaltitle}{The lancet}
+    \field{year}{2014}
+  \endentry
+
+  \entry{flegal2002prevalence}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FKM}{%
+         family={Flegal},
+         familyi={F\bibinitperiod},
+         given={Katherine\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CMD}{%
+         family={Carroll},
+         familyi={C\bibinitperiod},
+         given={Margaret\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=OCL}{%
+         family={Ogden},
+         familyi={O\bibinitperiod},
+         given={Cynthia\bibnamedelima L},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=JCL}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Clifford\bibnamedelima L},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Medical Association}%
+    }
+    \strng{namehash}{FKM+1}
+    \strng{fullhash}{FKMCMDOCLJCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{1723\bibrangedash 1727}
+    \field{title}{Prevalence and trends in obesity among US adults, 1999-2000}
+    \field{volume}{288}
+    \field{journaltitle}{Jama}
+    \field{year}{2002}
+  \endentry
+
+  \entry{gortmaker2011changing}{article}{}
+    \name{author}{9}{}{%
+      {{hash=GSL}{%
+         family={Gortmaker},
+         familyi={G\bibinitperiod},
+         given={Steven\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SBA}{%
+         family={Swinburn},
+         familyi={S\bibinitperiod},
+         given={Boyd\bibnamedelima A},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carter},
+         familyi={C\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MPL}{%
+         family={Mabry},
+         familyi={M\bibinitperiod},
+         given={Patricia\bibnamedelima L},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FDT}{%
+         family={Finegood},
+         familyi={F\bibinitperiod},
+         given={Diane\bibnamedelima T},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Terry},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Marsh},
+         familyi={M\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MML}{%
+         family={Moodie},
+         familyi={M\bibinitperiod},
+         given={Marjory\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{GSL+1}
+    \strng{fullhash}{GSLSBALDCRMPLFDTHTMTMML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9793}
+    \field{pages}{838\bibrangedash 847}
+    \field{title}{Changing the future of obesity: science, policy, and action}
+    \field{volume}{378}
+    \field{journaltitle}{The Lancet}
+    \field{year}{2011}
+  \endentry
+
+  \entry{papas2007built}{article}{}
+    \name{author}{6}{}{%
+      {{hash=PMA}{%
+         family={Papas},
+         familyi={P\bibinitperiod},
+         given={Mia\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AAJ}{%
+         family={Alberg},
+         familyi={A\bibinitperiod},
+         given={Anthony\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Ewing},
+         familyi={E\bibinitperiod},
+         given={Reid},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HKJ}{%
+         family={Helzlsouer},
+         familyi={H\bibinitperiod},
+         given={Kathy\bibnamedelima J},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GTL}{%
+         family={Gary},
+         familyi={G\bibinitperiod},
+         given={Tiffany\bibnamedelima L},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KAC}{%
+         family={Klassen},
+         familyi={K\bibinitperiod},
+         given={Ann\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{PMA+1}
+    \strng{fullhash}{PMAAAJERHKJGTLKAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{129\bibrangedash 143}
+    \field{title}{The built environment and obesity}
+    \field{volume}{29}
+    \field{journaltitle}{Epidemiologic reviews}
+    \field{year}{2007}
+  \endentry
+
+  \entry{mackenbach2014obesogenic}{article}{}
+    \name{author}{10}{}{%
+      {{hash=MJD}{%
+         family={Mackenbach},
+         familyi={M\bibinitperiod},
+         given={Joreintje\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Rutter},
+         familyi={R\bibinitperiod},
+         given={Harry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Compernolle},
+         familyi={C\bibinitperiod},
+         given={Sofie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Glonti},
+         familyi={G\bibinitperiod},
+         given={Ketevan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=OJM}{%
+         family={Oppert},
+         familyi={O\bibinitperiod},
+         given={Jean-Michel},
+         giveni={J\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Charreire},
+         familyi={C\bibinitperiod},
+         given={Helene},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DBI}{%
+         family={De\bibnamedelima Bourdeaudhuij},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Ilse},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brug},
+         familyi={B\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nijpels},
+         familyi={N\bibinitperiod},
+         given={Giel},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lakerveld},
+         familyi={L\bibinitperiod},
+         given={Jeroen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BioMed Central}%
+    }
+    \strng{namehash}{MJD+1}
+    \strng{fullhash}{MJDRHCSGKOJMCHDBIBJNGLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{233}
+    \field{title}{Obesogenic environments: a systematic review of the
+  association between the physical environment and adult weight status, the
+  SPOTLIGHT project}
+    \field{volume}{14}
+    \field{journaltitle}{BMC public health}
+    \field{year}{2014}
+  \endentry
+
+  \entry{mason2018associations}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MKE}{%
+         family={Mason},
+         familyi={M\bibinitperiod},
+         given={Kate\bibnamedelima E},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Pearce},
+         familyi={P\bibinitperiod},
+         given={Neil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cummins},
+         familyi={C\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MKEPNCS1}
+    \strng{fullhash}{MKEPNCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{e24\bibrangedash e33}
+    \field{title}{Associations between fast food and physical activity
+  environments and adiposity in mid-life: cross-sectional, observational
+  evidence from UK Biobank}
+    \field{volume}{3}
+    \field{journaltitle}{The Lancet Public Health}
+    \field{year}{2018}
+  \endentry
+
+  \entry{barrientos2017neighborhood}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BGT}{%
+         family={Barrientos-Gutierrez},
+         familyi={B\bibinitperiod-G\bibinitperiod},
+         given={Tonatiuh},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Kari\bibnamedelima AB},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AAH}{%
+         family={Auchincloss},
+         familyi={A\bibinitperiod},
+         given={Amy\bibnamedelima H},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MMS}{%
+         family={Mujahid},
+         familyi={M\bibinitperiod},
+         given={Mahasin\bibnamedelima S},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={August},
+         familyi={A\bibinitperiod},
+         given={Carmella},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SBN}{%
+         family={Sanchez},
+         familyi={S\bibinitperiod},
+         given={Brisa\bibnamedelima N},
+         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=DRAV}{%
+         family={Diez\bibnamedelima Roux},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Ana\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{BGT+1}
+    \strng{fullhash}{BGTMKAAAHMMSACSBNDRAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{1237\bibrangedash 1245}
+    \field{title}{Neighborhood physical environment and changes in body mass
+  index: results from the Multi-Ethnic Study of Atherosclerosis}
+    \field{volume}{186}
+    \field{journaltitle}{American journal of epidemiology}
+    \field{year}{2017}
+  \endentry
+
+  \entry{nieuwenhuijsen2018influence}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NMJ}{%
+         family={Nieuwenhuijsen},
+         familyi={N\bibinitperiod},
+         given={Mark\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{NMJ1}
+    \strng{fullhash}{NMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1}
+    \field{title}{Influence of urban and transport planning and the city
+  environment on cardiovascular disease}
+    \field{journaltitle}{Nature Reviews Cardiology}
+    \field{year}{2018}
+  \endentry
+
+  \entry{carrillo2019neighbourhood}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CAE}{%
+         family={Carrillo-{\'A}lvarez},
+         familyi={C\bibinitperiod-{\'A}\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=KI}{%
+         family={Kawachi},
+         familyi={K\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=RRJ}{%
+         family={Riera-Roman{\'\i}},
+         familyi={R\bibinitperiod-R\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{CAEKIRRJ1}
+    \strng{fullhash}{CAEKIRRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{119\bibrangedash 141}
+    \field{title}{Neighbourhood social capital and obesity: a systematic review
+  of the literature}
+    \field{volume}{20}
+    \field{journaltitle}{Obesity Reviews}
+    \field{year}{2019}
+  \endentry
+
+  \entry{suglia2016neighborhood}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SSF}{%
+         family={Suglia},
+         familyi={S\bibinitperiod},
+         given={Shakira\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SRC}{%
+         family={Shelton},
+         familyi={S\bibinitperiod},
+         given={Rachel\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hsiao},
+         familyi={H\bibinitperiod},
+         given={Amber},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WYC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Y\bibnamedelima Claire},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rundle},
+         familyi={R\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LBG}{%
+         family={Link},
+         familyi={L\bibinitperiod},
+         given={Bruce\bibnamedelima G},
+         giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SSF+1}
+    \strng{fullhash}{SSFSRCHAWYCRALBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{206\bibrangedash 212}
+    \field{title}{Why the neighborhood social environment is critical in
+  obesity prevention}
+    \field{volume}{93}
+    \field{journaltitle}{Journal of Urban Health}
+    \field{year}{2016}
+  \endentry
+
+  \entry{kawachi1997social}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KI}{%
+         family={Kawachi},
+         familyi={K\bibinitperiod},
+         given={Ichiro},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KBP}{%
+         family={Kennedy},
+         familyi={K\bibinitperiod},
+         given={Bruce\bibnamedelima P},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lochner},
+         familyi={L\bibinitperiod},
+         given={Kimberly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PSD}{%
+         family={Prothrow-Stith},
+         familyi={P\bibinitperiod-S\bibinitperiod},
+         given={Deborah},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Public Health Association}%
+    }
+    \strng{namehash}{KI+1}
+    \strng{fullhash}{KIKBPLKPSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{1491\bibrangedash 1498}
+    \field{title}{Social capital, income inequality, and mortality.}
+    \field{volume}{87}
+    \field{journaltitle}{American journal of public health}
+    \field{year}{1997}
+  \endentry
+
+  \entry{leyden2003social}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LKM}{%
+         family={Leyden},
+         familyi={L\bibinitperiod},
+         given={Kevin\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Public Health Association}%
+    }
+    \strng{namehash}{LKM1}
+    \strng{fullhash}{LKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{1546\bibrangedash 1551}
+    \field{title}{Social capital and the built environment: the importance of
+  walkable neighborhoods}
+    \field{volume}{93}
+    \field{journaltitle}{American journal of public health}
+    \field{year}{2003}
+  \endentry
+
+  \entry{hanibuchi2012does}{article}{}
+    \name{author}{6}{}{%
+      {{hash=HT}{%
+         family={Hanibuchi},
+         familyi={H\bibinitperiod},
+         given={Tomoya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kondo},
+         familyi={K\bibinitperiod},
+         given={Katsunori},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nakaya},
+         familyi={N\bibinitperiod},
+         given={Tomoki},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Shirai},
+         familyi={S\bibinitperiod},
+         given={Kokoro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hirai},
+         familyi={H\bibinitperiod},
+         given={Hiroshi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Kawachi},
+         familyi={K\bibinitperiod},
+         given={Ichiro},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HT+1}
+    \strng{fullhash}{HTKKNTSKHHKI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{229\bibrangedash 239}
+    \field{title}{Does walkable mean sociable? Neighborhood determinants of
+  social capital among older adults in Japan}
+    \field{volume}{18}
+    \field{journaltitle}{Health \& place}
+    \field{year}{2012}
+  \endentry
+
+  \entry{mcleroy1988ecological}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MKR}{%
+         family={McLeroy},
+         familyi={M\bibinitperiod},
+         given={Kenneth\bibnamedelima R},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bibeau},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Steckler},
+         familyi={S\bibinitperiod},
+         given={Allan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Glanz},
+         familyi={G\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications Sage CA: Thousand Oaks, CA}%
+    }
+    \strng{namehash}{MKR+1}
+    \strng{fullhash}{MKRBDSAGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{351\bibrangedash 377}
+    \field{title}{An ecological perspective on health promotion programs}
+    \field{volume}{15}
+    \field{journaltitle}{Health education quarterly}
+    \field{year}{1988}
+  \endentry
+
+  \entry{sallis1998environmental}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SJ}{%
+         family={Sallis},
+         familyi={S\bibinitperiod},
+         given={JamesF},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bauman},
+         familyi={B\bibinitperiod},
+         given={Adrian},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pratt},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SJBAPM1}
+    \strng{fullhash}{SJBAPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{379\bibrangedash 397}
+    \field{title}{Environmental and policy interventions to promote physical
+  activitya}
+    \field{volume}{15}
+    \field{journaltitle}{American journal of preventive medicine}
+    \field{year}{1998}
+  \endentry
+
+  \entry{schmid1995policy}{article}{}
+    \name{author}{3}{}{%
+      {{hash=STL}{%
+         family={Schmid},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima L},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pratt},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={Howze},
+         familyi={H\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Public Health Association}%
+    }
+    \strng{namehash}{STLPMHE1}
+    \strng{fullhash}{STLPMHE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{1207\bibrangedash 1211}
+    \field{title}{Policy as intervention: environmental and policy approaches
+  to the prevention of cardiovascular disease.}
+    \field{volume}{85}
+    \field{journaltitle}{American Journal of Public Health}
+    \field{year}{1995}
+  \endentry
+
+  \entry{frank2005linking}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FLD}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={Lawrence\bibnamedelima D},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=STL}{%
+         family={Schmid},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima L},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SJF}{%
+         family={Sallis},
+         familyi={S\bibinitperiod},
+         given={James\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chapman},
+         familyi={C\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SBE}{%
+         family={Saelens},
+         familyi={S\bibinitperiod},
+         given={Brian\bibnamedelima E},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FLD+1}
+    \strng{fullhash}{FLDSTLSJFCJSBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{117\bibrangedash 125}
+    \field{title}{Linking objectively measured physical activity with
+  objectively measured urban form: findings from SMARTRAQ}
+    \field{volume}{28}
+    \field{journaltitle}{American journal of preventive medicine}
+    \field{year}{2005}
+  \endentry
+
+  \entry{smartgrowth}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://smartgrowthamerica.org/}}
+    \field{note}{Accessed: 2019-01-26}
+    \field{title}{Smart Growth America}
+  \endentry
+
+  \entry{brown2015transit}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BBB}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Barbara\bibnamedelima B},
+         giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WCM}{%
+         family={Werner},
+         familyi={W\bibinitperiod},
+         given={Carol\bibnamedelima M},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TCP}{%
+         family={Tribby},
+         familyi={T\bibinitperiod},
+         given={Calvin\bibnamedelima P},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MHJ}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Harvey\bibnamedelima J},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SKR}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Ken\bibnamedelima R},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Public Health Association}%
+    }
+    \strng{namehash}{BBB+1}
+    \strng{fullhash}{BBBWCMTCPMHJSKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{1468\bibrangedash 1474}
+    \field{title}{Transit use, physical activity, and body mass index changes:
+  objective measures associated with complete street light-rail construction}
+    \field{volume}{105}
+    \field{journaltitle}{American journal of public health}
+    \field{year}{2015}
+  \endentry
+
+  \entry{macdonald2010effect}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MJM}{%
+         family={MacDonald},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SRJ}{%
+         family={Stokes},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CDA}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Deborah\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kofner},
+         familyi={K\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RGK}{%
+         family={Ridgeway},
+         familyi={R\bibinitperiod},
+         given={Greg\bibnamedelima K},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MJM+1}
+    \strng{fullhash}{MJMSRJCDAKARGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{105\bibrangedash 112}
+    \field{title}{The effect of light rail transit on body mass index and
+  physical activity}
+    \field{volume}{39}
+    \field{journaltitle}{American journal of preventive medicine}
+    \field{year}{2010}
+  \endentry
+
+  \entry{tseng2018effectiveness}{article}{}
+    \name{author}{9}{}{%
+      {{hash=TE}{%
+         family={Tseng},
+         familyi={T\bibinitperiod},
+         given={Eva},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Allen},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Shogbesan},
+         familyi={S\bibinitperiod},
+         given={Oluwaseun},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GKA}{%
+         family={Gudzune},
+         familyi={G\bibinitperiod},
+         given={Kimberly\bibnamedelima A},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WRF}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Renee\bibnamedelima F},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kharrazi},
+         familyi={K\bibinitperiod},
+         given={Hadi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CLJ}{%
+         family={Cheskin},
+         familyi={C\bibinitperiod},
+         given={Lawrence\bibnamedelima J},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BEB}{%
+         family={Bass},
+         familyi={B\bibinitperiod},
+         given={Eric\bibnamedelima B},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BWL}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={Wendy\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{TE+1}
+    \strng{fullhash}{TEZASOGKAWRFKHCLJBEBBWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{Effectiveness of Policies and Programs to Combat Adult
+  Obesity: a Systematic Review}
+    \field{journaltitle}{Journal of general internal medicine}
+    \field{year}{2018}
+  \endentry
+
+  \entry{krouwel1995making}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Krouwel},
+         familyi={K\bibinitperiod},
+         given={APM},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Making Democracy Work. Civic Traditions in Modern Italy
+  [Review of: R. Putnam (1994) Making Democracy Work. Civic Traditions in
+  Modern Italy]}
+    \field{volume}{30}
+    \field{journaltitle}{Acta Politica}
+    \field{year}{1995}
+  \endentry
+
+  \entry{sampson1989community}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SRJ}{%
+         family={Sampson},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GWB}{%
+         family={Groves},
+         familyi={G\bibinitperiod},
+         given={W\bibnamedelima Byron},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Chicago Press}%
+    }
+    \strng{namehash}{SRJGWB1}
+    \strng{fullhash}{SRJGWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{774\bibrangedash 802}
+    \field{title}{Community structure and crime: Testing social-disorganization
+  theory}
+    \field{volume}{94}
+    \field{journaltitle}{American journal of sociology}
+    \field{year}{1989}
+  \endentry
+
+  \entry{sundquist2011neighborhood}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SK}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=EU}{%
+         family={Eriksson},
+         familyi={E\bibinitperiod},
+         given={Ulf},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kawakami},
+         familyi={K\bibinitperiod},
+         given={Naomi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Skog},
+         familyi={S\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Ohlsson},
+         familyi={O\bibinitperiod},
+         given={Henrik},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Arvidsson},
+         familyi={A\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKEUKNSLOHAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{1266\bibrangedash 1273}
+    \field{title}{Neighborhood walkability, physical activity, and walking
+  behavior: the Swedish Neighborhood and Physical Activity (SNAP) study}
+    \field{volume}{72}
+    \field{journaltitle}{Social science \& medicine}
+    \field{year}{2011}
+  \endentry
+
+  \entry{kawakami2011differences}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KN}{%
+         family={Kawakami},
+         familyi={K\bibinitperiod},
+         given={Naomi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Winkleby},
+         familyi={W\bibinitperiod},
+         given={Marilyn},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Skog},
+         familyi={S\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Szulkin},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KN+1}
+    \strng{fullhash}{KNWMSLSRSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{132\bibrangedash 139}
+    \field{title}{Differences in neighborhood accessibility to health-related
+  resources: a nationwide comparison between deprived and affluent
+  neighborhoods in Sweden}
+    \field{volume}{17}
+    \field{journaltitle}{Health \& place}
+    \field{year}{2011}
+  \endentry
+
+  \entry{sundquist2014neighborhood}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SJ}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hamano},
+         familyi={H\bibinitperiod},
+         given={Tsuyoshi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xinjun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kawakami},
+         familyi={K\bibinitperiod},
+         given={Naomi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Shiwaku},
+         familyi={S\bibinitperiod},
+         given={Kuninori},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJHTLXKNSKSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{44\bibrangedash 51}
+    \field{title}{Neighborhood linking social capital as a predictor of
+  psychiatric medication prescription in the elderly: A Swedish national cohort
+  study}
+    \field{volume}{55}
+    \field{journaltitle}{Journal of psychiatric research}
+    \field{year}{2014}
+  \endentry
+
+  \entry{sundquist2014linking}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SK}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hamano},
+         familyi={H\bibinitperiod},
+         given={Tsuyoshi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xinjun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kawakami},
+         familyi={K\bibinitperiod},
+         given={Naomi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Shiwaku},
+         familyi={S\bibinitperiod},
+         given={Kuninori},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sundquist},
+         familyi={S\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKHTLXKNSKSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{29\bibrangedash 36}
+    \field{title}{Linking social capital and mortality in the elderly: a
+  Swedish national cohort study}
+    \field{volume}{55}
+    \field{journaltitle}{Experimental gerontology}
+    \field{year}{2014}
+  \endentry
+\enddatalist
+\endinput

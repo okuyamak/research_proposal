@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Aim 1}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Aim 2}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Litterature review}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Physical environments}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Social capital}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Aims and Significance}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Aim 1}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Aim 2}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Methods}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Aim 1: longitudinal changes of neighborhood physical envionment and obesity}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Aim 2: interaction effect of physial environment and social environment on obesity}{6}
