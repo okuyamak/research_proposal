@@ -1,0 +1,124 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme{Boadilla}
+%\usepackage{helvet}
+\usepackage{float}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{dcolumn} % to align numeric values at decimal mark in stargazer
+%\usepackage{geometry}
+%\geometry{a4paper,portrait,margin=1in} % graph extended to the defined width. graph size need to be defined in global environment
+%\AtBeginSection[] % show highlighted table of contents for each section
+%{
+%  \begin{frame}
+%    \frametitle{Table of Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\title{Research Proposal}
+\subtitle{Longitudinal change of anxiety and individual and neighborhood factors among Swedish population}
+\author{Kenta Okuyama\inst{1,2}}
+\institute{\inst{1}Center for Primary Health Care Research \\
+Lund University\and \inst{2}Center for Community-based Healthcare Research and Education \\
+Shimane University}
+\date{\today}
+\logo{
+	\includegraphics[height=1.0cm]{/home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png}~
+	%\includegraphics[height=1.0cm]{/home/kenta/Dropbox/Logo/logo_shimaneUniv.png}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%	\frame{Table of Contents}
+%	\tableofcontents
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item The prevalence of \textbf{anxiety has been increasing for 25 years} in Sweden (\textit{Calling, 2017}).
+		\item \textbf{Especially among young females (16-23 years),} 1/3 experienced anxiety in 2005, and it has increased dramatically.
+		\item Anxiety is a predictor of severe psychiatric disorders (\textit{Weitoft, 2005}).
+		\item Several factors were found to be associated with the prevalence of anxiety:
+			\begin{itemize}
+				\item Urbanization
+				\item Leisure time physical activity
+				\item Smoking
+				\item Marital status
+				\item Neighborhood deprivation, social network, employnment, immigration status (\textit{Lofors, 2006})
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item However, "the reasons of increased self-reported anxiety" are unknown
+		\item For example, the prevalence of leisure time PA has been increasing for 25 years (\textit{Leijon, 2015}), in parallel with the increase of the prevalence of anxiety.
+		\item Potential factors:
+			\begin{itemize}
+				\item Increased unemployment rate
+				\item Incraesed awareness of mental health and decreased stigma
+				\item \textbf{Urbanization}
+				\item \textbf{Social interactions}
+				\item \textbf{Internet use}
+			\end{itemize}
+	\end{itemize}
+	\begin{block}{Objective}
+		\begin{itemize}
+			\item To investigate \textbf{how direct (physical) and indirect (virtual) social interactions affect on anxiety by different neighborhood settings}.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hypothesis}
+\begin{frame}
+	\frametitle{Hypothesis}
+%%% left column	
+		\begin{itemize}
+			\item Direct social interactions affect on self-reported anxiety \textbf{positively, but the effects differ by neighborhood settings}.
+			\item Internet-use for social interactions affect on self-reported anxiety \textbf{positively among those in non-urban areas, but negatively among those in urban areas}.
+		\end{itemize}
+
+		\begin{block}{Significance}
+			\begin{itemize}
+				\item \textbf{Regulation or utilization of internet can be considered as effective interventions for mental health in different geographical settings}
+			\end{itemize}
+		\end{block}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods}
+\begin{frame}
+	\frametitle{Methods}
+			%\caption{Description of variables to be analyzed}
+			%\centering
+	\resizebox{\textwidth}{!}{
+			\begin{tabular}{ c l p{5cm} }
+				\hline
+				Type & Name & Description\\
+				\hline \hline
+				Outcome & Anxiety & Self-reported anxiety asked via interview. \\
+				Exposure & Urbanization & Neighborhood size, ex. urban, rural. More details if possible. \\
+								 & Social interactions & Frequencies of social interactions asked via interview. \\
+								 & Internet use & Frequencies of internet use for social interactions asked via interview.\\
+				Covariates & Basic characteristics & Age, gender, immigration status. \\
+									 & Socio-economic status & Education, occupation, marital status, income.\\
+									 & Psychosocial work environment& Job demands, decision making, supports.\\
+									 \hline
+			\end{tabular}
+		}
+\end{frame}
+
