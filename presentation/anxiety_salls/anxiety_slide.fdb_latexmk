@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1571065607 "anxiety_slide.tex" "anxiety_slide.pdf" "anxiety_slide" 1571065607
+["pdflatex"] 1572427482 "anxiety_slide.tex" "anxiety_slide.pdf" "anxiety_slide" 1572427482
   "/home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png" 1349862420 81171 22b3646e59f567a752239fb251b719cf ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1557554374 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1557554374 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -206,12 +206,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1557554374 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1568647326 4111448 8db019e352ee574fedfcdaa565c59da0 ""
-  "anxiety_slide.aux" 1571061021 2189 787900f3e19d34b7b2ebee3059d77011 "pdflatex"
+  "anxiety_slide.aux" 1572427440 2658 1c5d4d97349297c63534a58fab6197d2 "pdflatex"
   "anxiety_slide.nav" 0 -1 0 ""
-  "anxiety_slide.out" 1571061021 134 c8fe5af5859aa58ef9c2323be85a4414 "pdflatex"
-  "anxiety_slide.tex" 1571065607 6455 ea807410a77bc54bb8398bcb15796151 ""
+  "anxiety_slide.out" 1572427440 205 9b9df2171b28715152013bdb3ab5482b "pdflatex"
+  "anxiety_slide.tex" 1572427482 7397 40955f31581195ffacfcf21f908be1e7 ""
   (generated)
+  "anxiety_slide.log"
   "anxiety_slide.aux"
   "anxiety_slide.out"
-  "anxiety_slide.log"
   "anxiety_slide.pdf"

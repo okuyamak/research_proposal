@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.9.16)  14 OCT 2019 17:06
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.9.16)  30 OCT 2019 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,8 +1116,6 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 111.
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1129,6 +1127,8 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
 [2
 
 ]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 135.
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1161,6 +1161,17 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
 
 [5
 
+]
+File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+ Graphic file (type bmp)
+</home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
+
+Overfull \hbox (315.7573pt too wide) has occurred while \output is active
+ [][]  \TU/lmss/m/n/6 ([])  
+ []
+
+[6
+
 ])
 ! Emergency stop.
 <*> anxiety_slide.tex
@@ -1169,11 +1180,11 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
 
  
 Here is how much of TeX's memory you used:
- 25108 strings out of 492922
- 466420 string characters out of 6138851
- 553640 words of memory out of 5000000
- 28614 multiletter control sequences out of 15000+600000
+ 25124 strings out of 492922
+ 466895 string characters out of 6138851
+ 553411 words of memory out of 5000000
+ 28630 multiletter control sequences out of 15000+600000
  9726 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,15n,66p,855b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on anxiety_slide.pdf (5 pages).
+Output written on anxiety_slide.pdf (6 pages).

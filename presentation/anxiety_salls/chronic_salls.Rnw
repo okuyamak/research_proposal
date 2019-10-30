@@ -1,0 +1,64 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme{Boadilla}
+%\usepackage{helvet}
+\usepackage{float}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{dcolumn} % to align numeric values at decimal mark in stargazer
+%\usepackage{geometry}
+%\geometry{a4paper,portrait,margin=1in} % graph extended to the defined width. graph size need to be defined in global environment
+%\AtBeginSection[] % show highlighted table of contents for each section
+%{
+%  \begin{frame}
+%    \frametitle{Table of Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\title{Research Plans}
+\subtitle{Swedish Annual Level of Living Survey}
+\author{Kenta Okuyama\inst{1,2}}
+\institute{\inst{1}Center for Primary Health Care Research \\
+Lund University\and \inst{2}Center for Community-based Healthcare Research and Education \\
+Shimane University}
+\date{\today}
+\logo{
+	\includegraphics[height=1.0cm]{/home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png}~
+	%\includegraphics[height=1.0cm]{/home/kenta/Dropbox/Logo/logo_shimaneUniv.png}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%	\frame{Table of Contents}
+%	\tableofcontents
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research topics}
+\begin{frame}
+	\frametitle{Research topics}
+	\begin{enumerate}
+		\item Neighborhood environment and mental health for older adults
+			\begin{itemize}
+				\item Interested in anxiety, depression, and dementia.
+				\item Did the frequencies/ways of social interactions changed over time?
+				\item Did it affect on mental health of older adults?
+				\item Is the association different by regions?
+			\end{itemize}
+		\item Social interactions and self anxiety.
+			\begin{itemize}
+				\item Interested in how physical and virtual social interactions. 
+				\item Did the frequencies/ways of social interactions changed over time?
+				\item Did it affect on anxiety of young population, and it differed by regions?
+			\end{itemize}
+	\end{enumerate}
+\end{frame}
+
+
