@@ -1,0 +1,165 @@
+\documentclass[dvipdfmx]{beamer}
+\usetheme{Boadilla}
+%\usepackage{helvet}
+\usepackage{float}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{dcolumn} % to align numeric values at decimal mark in stargazer
+%\usepackage{geometry}
+%\geometry{a4paper,portrait,margin=1in} % graph extended to the defined width. graph size need to be defined in global environment
+%\AtBeginSection[] % show highlighted table of contents for each section
+%{
+%  \begin{frame}
+%    \frametitle{Table of Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\title{Neighborhood environment and chronic pain among oldr adults}
+\subtitle{Swedish Annual Level of Living Survey}
+\author{Kenta Okuyama\inst{1,2}}
+\institute{\inst{1}Center for Primary Health Care Research \\
+Lund University\and \inst{2}Center for Community-based Healthcare Research and Education \\
+Shimane University}
+\date{\today}
+\logo{
+	\includegraphics[height=1.0cm]{/home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png}~
+	%\includegraphics[height=1.0cm]{/home/kenta/Dropbox/Logo/logo_shimaneUniv.png}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%	\frame{Table of Contents}
+%	\tableofcontents
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item Facts for older adults (ageing population)
+			\begin{itemize}
+				\item World population is ageing.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Quality of life of older adults (endpoint from pain)
+			\begin{itemize}
+				\item Maintain quality of life (independent).
+				\item Maintain physical function.
+				\item Physical disorders, especially injuries from fall. Mental disorders, especially dementia.
+				\item Pain, is one of the biggest factor for falls and mental disorders.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Fact of pain.
+			\begin{itemize}
+				\item Pain is a factor for physical function decline.
+				\item Associated healthcare cost with pain.
+				\item Current issues with pain, mainly treatment.
+				\item 
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Neighborhood environment
+			\begin{itemize}
+				\item Some individual risk factors have been found for pain.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Why neighborhood study
+			\begin{itemize}
+				\item Bring imapacts on population.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objectives}
+\begin{frame}
+	\frametitle{Objectives}
+	\begin{block}{Objectives}
+		\begin{itemize}
+			\item To investigate whether neighborhood deprivation is associated with chronic pain among older adults.
+		\end{itemize}
+	\end{block}
+	\begin{description}
+		\item[Hypothesis] \mbox{}\par
+			\begin{itemize} 
+				\item Older adults living in deprived areas would have higher risk of developing chronic pains.
+			\end{itemize} 
+		\item[Implication] \mbox{}\par
+			\begin{itemize} 
+				\item The findings leads to further investigations for what modifiable factors lie in neighborhood deprivation and pain.
+			\end{itemize} 
+	\end{description}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods}
+\begin{frame}
+	\frametitle{Methods}
+	\begin{description}
+		\item[Study areas] \mbox{}\par
+			\begin{itemize} 
+				\item Entire sweden.
+			\end{itemize} 
+				\item[Study subjects] \mbox{}\par
+			\begin{itemize} 
+				\item Those who participated in Swedish Annual Level Living Survey in 1988.
+			\end{itemize} 
+	\end{description}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Methods (Cont.)}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{ c l p{5cm} }
+			\hline
+			Type & Name & Description\\
+			\hline \hline
+			Outcome & Anxiety & Self-reported anxiety asked via interview. \\
+			Exposure & Urbanization & Neighborhood size, ex. urban, rural. More details if possible. \\
+							 & Social interactions & Frequencies of social interactions asked via interview. \\
+							 & Internet use & Frequencies of internet use for social interactions asked via interview.\\
+			Covariates & Basic characteristics & Age, gender, immigration status. \\
+								 & Socio-economic status & Education, occupation, marital status, income.\\
+								 & Psychosocial work environment& Job demands, decision making, supports.\\
+								 \hline
+		\end{tabular}
+	}
+\end{frame}
+
+\end{document}

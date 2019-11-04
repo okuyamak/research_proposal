@@ -1,0 +1,216 @@
+\documentclass[dvipdfmx]{beamer}\usepackage[]{graphicx}\usepackage[]{color}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usetheme{Boadilla}
+%\usepackage{helvet}
+\usepackage{float}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{dcolumn} % to align numeric values at decimal mark in stargazer
+%\usepackage{geometry}
+%\geometry{a4paper,portrait,margin=1in} % graph extended to the defined width. graph size need to be defined in global environment
+%\AtBeginSection[] % show highlighted table of contents for each section
+%{
+%  \begin{frame}
+%    \frametitle{Table of Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\title{Neighborhood environment and chronic pain among oldr adults}
+\subtitle{Swedish Annual Level of Living Survey}
+\author{Kenta Okuyama\inst{1,2}}
+\institute{\inst{1}Center for Primary Health Care Research \\
+Lund University\and \inst{2}Center for Community-based Healthcare Research and Education \\
+Shimane University}
+\date{\today}
+\logo{
+	\includegraphics[height=1.0cm]{/home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png}~
+	%\includegraphics[height=1.0cm]{/home/kenta/Dropbox/Logo/logo_shimaneUniv.png}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%	\frame{Table of Contents}
+%	\tableofcontents
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item Facts for older adults (ageing population)
+			\begin{itemize}
+				\item World population is ageing.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Quality of life of older adults (endpoint from pain)
+			\begin{itemize}
+				\item Maintain quality of life (independent).
+				\item Maintain physical function.
+				\item Physical disorders, especially injuries from fall. Mental disorders, especially dementia.
+				\item Pain, is one of the biggest factor for falls and mental disorders.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Fact of pain.
+			\begin{itemize}
+				\item Pain is a factor for physical function decline.
+				\item Associated healthcare cost with pain.
+				\item Current issues with pain, mainly treatment.
+				\item 
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Neighborhood environment
+			\begin{itemize}
+				\item Some individual risk factors have been found for pain.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction (Cont.)}
+	\begin{itemize}
+		\item Why neighborhood study
+			\begin{itemize}
+				\item Bring imapacts on population.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objectives}
+\begin{frame}
+	\frametitle{Objectives}
+	\begin{block}{Objectives}
+		\begin{itemize}
+			\item To investigate whether neighborhood deprivation is associated with chronic pain among older adults.
+		\end{itemize}
+	\end{block}
+	\begin{description}
+		\item[Hypothesis] \mbox{}\par
+			\begin{itemize} 
+				\item Older adults living in deprived areas would have higher risk of developing chronic pains.
+			\end{itemize} 
+		\item[Implication] \mbox{}\par
+			\begin{itemize} 
+				\item The findings leads to further investigations for what modifiable factors lie in neighborhood deprivation and pain.
+			\end{itemize} 
+	\end{description}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods}
+\begin{frame}
+	\frametitle{Methods}
+	\begin{description}
+		\item[Study areas] \mbox{}\par
+			\begin{itemize} 
+				\item Entire sweden.
+			\end{itemize} 
+				\item[Study subjects] \mbox{}\par
+			\begin{itemize} 
+				\item Those who participated in Swedish Annual Level Living Survey in 1988.
+			\end{itemize} 
+	\end{description}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Methods (Cont.)}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{ c l p{5cm} }
+			\hline
+			Type & Name & Description\\
+			\hline \hline
+			Outcome & Anxiety & Self-reported anxiety asked via interview. \\
+			Exposure & Urbanization & Neighborhood size, ex. urban, rural. More details if possible. \\
+							 & Social interactions & Frequencies of social interactions asked via interview. \\
+							 & Internet use & Frequencies of internet use for social interactions asked via interview.\\
+			Covariates & Basic characteristics & Age, gender, immigration status. \\
+								 & Socio-economic status & Education, occupation, marital status, income.\\
+								 & Psychosocial work environment& Job demands, decision making, supports.\\
+								 \hline
+		\end{tabular}
+	}
+\end{frame}
+
+\end{document}
