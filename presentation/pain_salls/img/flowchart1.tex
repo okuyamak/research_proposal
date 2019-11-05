@@ -1,0 +1,33 @@
+\documentclass[dvipdfmx]{article}
+
+\usetikzlibrary{shapes.geometric, arrows}
+
+
+\begin{document}
+    \tikzstyle{heading} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=white]
+    \tikzstyle{flow} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black]
+
+\begin{tikzpicture}[node distance=3cm]
+
+    \node (head1) [text width=4cm] {Number of subjects $\geq$60};
+    \node (n0) [flow, below of=head1, text width=5cm, yshift=1cm] {Baseline 2016, n=2724};
+    \node (n1)  [flow, below of=n0, text width=5cm] {Follow-up 2017, n=1817};
+    \node (n2)  [flow, below of=n1, text width=5cm] {Follow-up 2018, n=1554};
+    \node (n3)  [flow, below of=n2, text width=5cm] {Follow-up 2019, n=1200(expected)};
+
+    \node (head2) [text width=4cm, right of=head1, xshift=3cm] {Number of subjects $\geq$60 without missing data for relavant variables};
+    \node (n02)  [flow, right of=n0, text width=5cm, xshift=3cm] {Baseline 2016, n=2526};
+    \node (n12)  [flow, right of=n1, text width=5cm, xshift=3cm] {Follow-up 2017, n=1565};
+    \node (n22)  [flow, right of=n2, text width=5cm, xshift=3cm] {Follow-up 2018, n=1033};
+    \node (n32)  [flow, right of=n3, text width=5cm, xshift=3cm] {Follow-up 2019, n=700(expected)};
+
+    \draw [->] (n0) -- node[text width=4cm]{}(n1);
+    \draw [->] (n1) -- node[text width=4cm,text centered,fill=white]{baseline and 2017, or baseline only}(n2);
+    \draw [->] (n2) -- (n3);
+    
+    \draw [->] (n02) -- node[text width=4cm]{}(n12);
+    \draw [->] (n12) -- node[text width=4cm,text centered,fill=white]{baseline and 2017, or baseline only}(n22);
+    \draw [->] (n22) -- (n32);
+\end{tikzpicture}   
+
+\end{document}

@@ -1,0 +1,34 @@
+\documentclass[dvipdfmx]{article}
+
+\usetikzlibrary{shapes.geometric, arrows}
+
+
+\begin{document}
+    \tikzstyle{heading} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=white]
+    \tikzstyle{flow} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black]
+
+\begin{tikzpicture}[node distance=3cm]
+
+    \node (head1) [text width=4cm] {Number of subjects $\geq$60};
+    \node (n2010) [flow, below of=head1, text width=5cm, yshift=1cm] {Baseline 2010, n=2724};
+    \node (n2011)  [flow, below of=n2010, text width=5cm] {Follow-up 2011, n=1817};
+    \node (n2012)  [flow, below of=n2011, text width=5cm] {Follow-up 2012, n=1554};
+    \node (n2013)  [flow, below of=n2012, text width=5cm] {Follow-up 2013, n=1200(expected)};
+    \node (n2014)  [flow, below of=n2013, text width=5cm] {Follow-up 2014, n=1200(expected)};
+    \node (n2015)  [flow, below of=n2014, text width=5cm] {Follow-up 2015, n=1200(expected)};
+    \node (n2016)  [flow, below of=n2015, text width=5cm] {Follow-up 2016, n=1200(expected)};
+    \node (n2017)  [flow, below of=n2016, text width=5cm] {Follow-up 2017, n=1200(expected)};
+    \node (n2018)  [flow, below of=n2017, text width=5cm] {Follow-up 2018, n=1200(expected)};
+    \node (n2019)  [flow, below of=n2018, text width=5cm] {Follow-up 2019, n=1200(expected)};
+    \draw [->] (n2010) -- node[text width=4cm]{}(n1);
+    \draw [->] (n2011) -- node[text width=4cm,text centered,fill=white]{baseline and 2011, or baseline only}(n2012);
+    \draw [->] (n2012) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012, or baseline only}(n2013);
+    \draw [->] (n2013) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013, or baseline only}(n2014);
+    \draw [->] (n2014) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013 and/or 2014, or baseline only}(n2015);
+    \draw [->] (n2015) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013 and/or 2014 and/or 2015, or baseline only}(n2016);
+    \draw [->] (n2016) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013 and/or 2014 and/or 2015 and/or 2016, or baseline only}(n2017);
+    \draw [->] (n2017) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013 and/or 2014 and/or 2015 and/or 2016 and/or 2017, or baseline only}(n2018);
+    \draw [->] (n2018) -- node[text width=4cm,text centered,fill=white]{baseline and 2011 and/or 2012 and/or 2013 and/or 2014 and/or 2015 and/or 2016 and/or 2017 and/or 2018, or baseline only}(n2019);
+\end{tikzpicture}   
+
+\end{document}

@@ -309,6 +309,33 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/share/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/share/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def
+INPUT /usr/share/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 INPUT /usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 INPUT /usr/share/texmf-dist/tex/latex/upquote/upquote.sty
@@ -316,6 +343,8 @@ INPUT /usr/share/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/ts1enc.def
 INPUT /usr/share/texmf-dist/tex/latex/base/ts1enc.def
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT pain_salls.aux
 INPUT pain_salls.aux
 OUTPUT pain_salls.aux
@@ -343,6 +372,10 @@ INPUT /usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-E
 INPUT /usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 INPUT /usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT /usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+OUTPUT pain_salls-blx.bib
+INPUT pain_salls.bbl
+INPUT pain_salls.bbl
+INPUT pain_salls.bbl
 INPUT pain_salls.nav
 INPUT pain_salls.nav
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
@@ -373,7 +406,15 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT extractbb -B cropbox -O /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+INPUT ./img/pop_ageing.PNG
+INPUT extractbb -B cropbox -O ./img/pop_ageing.PNG
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+INPUT img/healthylife_jp.PNG
+INPUT extractbb -B cropbox -O img/healthylife_jp.PNG
+INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+INPUT img/flowchart1.tex
+INPUT img/flowchart1.tex
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
@@ -386,3 +427,5 @@ OUTPUT pain_salls.toc
 OUTPUT pain_salls.snm
 INPUT pain_salls.aux
 INPUT ./pain_salls.out
+INPUT pain_salls.run.xml
+OUTPUT pain_salls.run.xml

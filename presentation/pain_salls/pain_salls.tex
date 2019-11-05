@@ -51,11 +51,14 @@
 \usepackage{alltt}
 \usetheme{Boadilla}
 %\usepackage{helvet}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
 \usepackage{float}
 \usepackage{standalone}
 \usepackage{tikz}
 \usepackage{booktabs}
 \usepackage{dcolumn} % to align numeric values at decimal mark in stargazer
+
 %\usepackage{geometry}
 %\geometry{a4paper,portrait,margin=1in} % graph extended to the defined width. graph size need to be defined in global environment
 %\AtBeginSection[] % show highlighted table of contents for each section
@@ -66,7 +69,11 @@
 %  \end{frame}
 %}
 
-\title{Neighborhood environment and chronic pain among oldr adults}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{../../bib/ne_pain.bib}
+
+
+\title{Neighborhood environment and chronic pain among older adults}
 \subtitle{Swedish Annual Level of Living Survey}
 \author{Kenta Okuyama\inst{1,2}}
 \institute{\inst{1}Center for Primary Health Care Research \\
@@ -92,68 +99,84 @@ Shimane University}
 %\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introduction}
+\section{Introduction - Older adults}
 \begin{frame}
 	\frametitle{Introduction}
 	\begin{itemize}
-		\item Facts for older adults (ageing population)
-			\begin{itemize}
-				\item World population is ageing.
-			\end{itemize}
+		\item World population is ageing (UN, 2017)\cite{unitednationsWorldPopulationAgeing2017a}.
+			\begin{figure}[H]
+				\centering
+				\includegraphics [width=\textwidth] {./img/pop_ageing.PNG}
+			\end{figure}
 	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Introduction (Cont.)}
+	\frametitle{Introduction - Older adults}
 	\begin{itemize}
-		\item Quality of life of older adults (endpoint from pain)
+		\item Longer life = more oppotunities
 			\begin{itemize}
-				\item Maintain quality of life (independent).
-				\item Maintain physical function.
-				\item Physical disorders, especially injuries from fall. Mental disorders, especially dementia.
-				\item Pain, is one of the biggest factor for falls and mental disorders.
+				\item Seek further careers, educations as individuals.
+				\item Valuable contributions to society.
 			\end{itemize}
+		\item but it depends on.... health.
 	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Introduction (Cont.)}
+	\frametitle{Introduction - Older adults}
+	\begin{itemize}
+		\item Life expectancy = healthy life expectancy (disability free).
+			\begin{figure}[H]
+				\centering
+				\includegraphics [width=\textwidth] {img/healthylife_jp.PNG}
+			\end{figure}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction - Older adults}
+	\begin{itemize}
+		\item End of healthy life = Lost functional ability and become care-dependent.
+		\item Determinants of care dependent = physical disorders, especially from fall. 
+		\item Pain, is one of the biggest factor for falls, and even mental health.
+			\begin{figure}[H]
+				\centering
+				\input{img/flowchart1.tex}
+			\end{figure}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction - Pain}
 	\begin{itemize}
 		\item Fact of pain.
 			\begin{itemize}
-				\item Pain is a factor for physical function decline.
+				\item Pain is a determinant factor for physical function decline.
 				\item Associated healthcare cost with pain.
 				\item Current issues with pain, mainly treatment.
+			\end{itemize}
+
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Introduction - Pain and neighborhood} 
+	\begin{itemize}
+		\item Neighborhood environment
+			\begin{itemize}
+				\item Some individual risk factors have been found for pain, i.e. SES.
 				\item 
 			\end{itemize}
 	\end{itemize}
 \end{frame}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\frametitle{Introduction (Cont.)}
-	\begin{itemize}
-		\item Neighborhood environment
-			\begin{itemize}
-				\item Some individual risk factors have been found for pain.
-			\end{itemize}
-	\end{itemize}
-\end{frame}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\frametitle{Introduction (Cont.)}
-	\begin{itemize}
-		\item Why neighborhood study
-			\begin{itemize}
-				\item Bring imapacts on population.
-			\end{itemize}
-	\end{itemize}
-\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Objectives}
@@ -167,11 +190,11 @@ Shimane University}
 	\begin{description}
 		\item[Hypothesis] \mbox{}\par
 			\begin{itemize} 
-				\item Older adults living in deprived areas would have higher risk of developing chronic pains.
+				\item Older adults living in deprived areas would have higher risk of having/developing chronic pains.
 			\end{itemize} 
 		\item[Implication] \mbox{}\par
 			\begin{itemize} 
-				\item The findings leads to further investigations for what modifiable factors lie in neighborhood deprivation and pain.
+				\item The findings lead to further investigations for what modifiable factors lie in neighborhood deprivation and pain.
 			\end{itemize} 
 	\end{description}
 \end{frame}
@@ -179,15 +202,23 @@ Shimane University}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methods}
 \begin{frame}
-	\frametitle{Methods}
+	\frametitle{Methods - Data source}
 	\begin{description}
-		\item[Study areas] \mbox{}\par
+		\item[Data source] \mbox{}\par
 			\begin{itemize} 
-				\item Entire sweden.
+				\item Swedish Annual Level of Living Survey
+					\begin{itemize}
+						\item The Swedish Living Condition Surveys (ULF/SILC).
+						\item Started since 1975 ~.
+						\item Changed from face-face to phone interviews in 2008 ~.
+						\item In 2008, it has been harmonized with European Statistics on Income and Living Conditions (EU-SILC).
+
+					\end{itemize} 
 			\end{itemize} 
-				\item[Study subjects] \mbox{}\par
+		\item[Study subjects] \mbox{}\par
 			\begin{itemize} 
-				\item Those who participated in Swedish Annual Level Living Survey in 1988.
+				\item Those who participated in ULF in 2008 - 2013 (3 time points).
+				\item Those who participated in ULF in 2014 - 2018 (3 time points).
 			\end{itemize} 
 	\end{description}
 
@@ -195,22 +226,30 @@ Shimane University}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-	\frametitle{Methods (Cont.)}
+	\frametitle{Methods - Variables}
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{ c l p{5cm} }
 			\hline
 			Type & Name & Description\\
 			\hline \hline
-			Outcome & Anxiety & Self-reported anxiety asked via interview. \\
-			Exposure & Urbanization & Neighborhood size, ex. urban, rural. More details if possible. \\
-							 & Social interactions & Frequencies of social interactions asked via interview. \\
-							 & Internet use & Frequencies of internet use for social interactions asked via interview.\\
+			Outcome & Serious/Severe pain & Do you suffer from pain? Would you say the ailments are severe or minor? (2014~2018) Are the ailments are severe or minor? (2008~2013). \\
+			Primary exposure & Neighborhood deprivation index & Linked with the measures by SAMS.\\
 			Covariates & Basic characteristics & Age, gender, immigration status. \\
 								 & Socio-economic status & Education, occupation, marital status, income.\\
-								 & Psychosocial work environment& Job demands, decision making, supports.\\
+								 & Physical activity & Frequencies of leisure time activities, i.e. walking, outdoor sports.\\
+								 & Mental conditions & Problems of anxiety, worry, fear.\\
+								 & Social relations & Living alone, social contact, time, have friends.\\
 								 \hline
 		\end{tabular}
 	}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{References}
+	
+	\printbibliography
+
 \end{frame}
 
 \end{document}

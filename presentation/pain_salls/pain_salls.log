@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.9.16)  4 NOV 2019 12:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.9.16)  5 NOV 2019 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,6 +664,42 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+
+./pain_salls.tex:55: LaTeX Error: Option clash for package graphicx.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \usepackage
+                [dvipdfmx]{color}
+The package graphicx has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvipdfmx]
+Adding the global options:
+  ,dvipdfmx
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+
+./pain_salls.tex:56: LaTeX Error: Option clash for package color.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \usepackage
+                {float}
+The package color has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvipdfmx]
+Adding the global options:
+  ,dvipdfmx
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count159
@@ -848,6 +884,232 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \backup@length=\skip59
 \ar@cellbox=\box66
 ))
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count177
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count178
+\c@listtotal=\count179
+\c@listcount=\count180
+\c@liststart=\count181
+\c@liststop=\count182
+\c@citecount=\count183
+\c@citetotal=\count184
+\c@multicitecount=\count185
+\c@multicitetotal=\count186
+\c@instcount=\count187
+\c@maxnames=\count188
+\c@minnames=\count189
+\c@maxitems=\count190
+\c@minitems=\count191
+\c@citecounter=\count192
+\c@maxcitecounter=\count193
+\c@savedcitecounter=\count194
+\c@uniquelist=\count195
+\c@uniquename=\count196
+\c@refsection=\count197
+\c@refsegment=\count198
+\c@maxextratitle=\count199
+\c@maxextratitleyear=\count266
+\c@maxextraname=\count267
+\c@maxextradate=\count268
+\c@maxextraalpha=\count269
+\c@abbrvpenalty=\count270
+\c@highnamepenalty=\count271
+\c@lownamepenalty=\count272
+\c@maxparens=\count273
+\c@parenlevel=\count274
+\blx@tempcnta=\count275
+\blx@tempcntb=\count276
+\blx@tempcntc=\count277
+\blx@maxsection=\count278
+\blx@maxsegment@0=\count279
+\blx@notetype=\count280
+\blx@parenlevel@text=\count281
+\blx@parenlevel@foot=\count282
+\blx@sectionciteorder@0=\count283
+\blx@entrysetcounter=\count284
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count285
+\c@maxcomprange=\count286
+\c@mincompwidth=\count287
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count288
+\c@savedafterword=\count289
+\c@annotator=\count290
+\c@savedannotator=\count291
+\c@author=\count292
+\c@savedauthor=\count293
+\c@bookauthor=\count294
+\c@savedbookauthor=\count295
+\c@commentator=\count296
+\c@savedcommentator=\count297
+\c@editor=\count298
+\c@savededitor=\count299
+\c@editora=\count300
+\c@savededitora=\count301
+\c@editorb=\count302
+\c@savededitorb=\count303
+\c@editorc=\count304
+\c@savededitorc=\count305
+\c@foreword=\count306
+\c@savedforeword=\count307
+\c@holder=\count308
+\c@savedholder=\count309
+\c@introduction=\count310
+\c@savedintroduction=\count311
+\c@namea=\count312
+\c@savednamea=\count313
+\c@nameb=\count314
+\c@savednameb=\count315
+\c@namec=\count316
+\c@savednamec=\count317
+\c@translator=\count318
+\c@savedtranslator=\count319
+\c@shortauthor=\count320
+\c@savedshortauthor=\count321
+\c@shorteditor=\count322
+\c@savedshorteditor=\count323
+\c@labelname=\count324
+\c@savedlabelname=\count325
+\c@institution=\count326
+\c@savedinstitution=\count327
+\c@lista=\count328
+\c@savedlista=\count329
+\c@listb=\count330
+\c@savedlistb=\count331
+\c@listc=\count332
+\c@savedlistc=\count333
+\c@listd=\count334
+\c@savedlistd=\count335
+\c@liste=\count336
+\c@savedliste=\count337
+\c@listf=\count338
+\c@savedlistf=\count339
+\c@location=\count340
+\c@savedlocation=\count341
+\c@organization=\count342
+\c@savedorganization=\count343
+\c@origlocation=\count344
+\c@savedoriglocation=\count345
+\c@origpublisher=\count346
+\c@savedorigpublisher=\count347
+\c@publisher=\count348
+\c@savedpublisher=\count349
+\c@language=\count350
+\c@savedlanguage=\count351
+\c@origlanguage=\count352
+\c@savedoriglanguage=\count353
+\c@pageref=\count354
+\c@savedpageref=\count355
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count356
+\c@textcitetotal=\count357
+\c@textcitemaxnames=\count358
+\c@biburlnumpenalty=\count359
+\c@biburlucpenalty=\count360
+\c@biburllcpenalty=\count361
+\c@smartand=\count362
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count363
+\c@bbx:relatedtotal=\count364
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -933,34 +1195,43 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)) (./pain_salls.aux)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+\@quotelevel=\count365
+\@quotereset=\count366
+ (./pain_salls.aux)
 \openout1 = `pain_salls.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    ... okay on input line 90.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -997,7 +1268,7 @@ LaTeX Font Info:    ... okay on input line 83.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1005,58 +1276,58 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count177
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (./pain_salls.out) (./pain_salls.out)
-\@outlinefile=\write5
-\openout5 = `pain_salls.out'.
+\@outlinefile=\write6
+\openout6 = `pain_salls.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 83.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 90.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 83.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 90.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 83.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/bx/n on input line 90.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 83.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 83.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 90.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 83.
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 83.
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 90.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 90.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 83.
+(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 90.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 83.
+(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 83.
+(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/bx/n --> TU/lmss/bx/n on input line 83.
+(Font)                  TU/lmss/bx/n --> TU/lmss/bx/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 83.
+(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 83.
+(Font)                  TU/lmss/m/it --> TU/lmss/bx/it on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 83.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 90.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1081,33 +1352,48 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./pain_salls.nav)
-Overfull \hbox (315.7573pt too wide) in paragraph at lines 83--83
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `pain_salls-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'pain_salls.bbl' found.
+ (./pain_salls.bbl)
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+ (./pain_salls.nav)
+Overfull \hbox (315.7573pt too wide) in paragraph at lines 90--90
  [][]  \TU/lmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (47.34137pt too wide) in paragraph at lines 83--83
+Overfull \hbox (50.17337pt too wide) in paragraph at lines 90--90
  [][][][]  
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+LaTeX Font Info:    Try loading font information for U+msa on input line 93.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 93.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 93.
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1117,13 +1403,28 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [1
 
 ]
+
+LaTeX Warning: Citation 'unitednationsWorldPopulationAgeing2017a' on page 2 und
+efined on input line 112.
+
+File: ./img/pop_ageing.PNG Graphic file (type bmp)
+<./img/pop_ageing.PNG>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 112--112
+ [] 
+ []
+
+
+Overfull \vbox (65.97255pt too high) detected at line 112
+ []
+
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1133,7 +1434,7 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1149,13 +1450,20 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [3
 
 ]
+File: img/healthylife_jp.PNG Graphic file (type bmp)
+<img/healthylife_jp.PNG>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 137--137
+ [] 
+ []
+
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1165,13 +1473,21 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [4
 
-]
+] (./img/flowchart1.tex
+Overfull \hbox (0.2841pt too wide) in paragraph at lines 31--32
+ [] 
+ []
+
+)
+Overfull \vbox (196.46565pt too high) detected at line 151
+ []
+
 File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
  Graphic file (type bmp)
 </home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
@@ -1181,7 +1497,7 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1197,7 +1513,7 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1213,7 +1529,7 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1229,7 +1545,7 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1245,37 +1561,98 @@ Overfull \hbox (315.7573pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (47.34137pt too wide) has occurred while \output is active
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
 ]
-\tf@nav=\write6
-\openout6 = `pain_salls.nav'.
+Underfull \hbox (badness 5607) in paragraph at lines 245--245
+[]|\TU/lmss/m/n/10.95 Do you suffer from pain?
+ []
 
-\tf@toc=\write7
-\openout7 = `pain_salls.toc'.
 
-\tf@snm=\write8
-\openout8 = `pain_salls.snm'.
+Underfull \hbox (badness 3271) in paragraph at lines 245--245
+[]|\TU/lmss/m/n/10.95 Problems of anxiety, worry,
+ []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+
+Underfull \hbox (badness 1502) in paragraph at lines 245--245
+[]|\TU/lmss/m/n/10.95 Living alone, social contact,
+ []
+
+File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+ Graphic file (type bmp)
+</home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
+
+Overfull \hbox (315.7573pt too wide) has occurred while \output is active
+ [][]  \TU/lmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+]
+
+LaTeX Warning: Empty bibliography on input line 253.
+
+File: /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+ Graphic file (type bmp)
+</home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png>
+
+Overfull \hbox (315.7573pt too wide) has occurred while \output is active
+ [][]  \TU/lmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (50.17337pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+]
+\tf@nav=\write7
+\openout7 = `pain_salls.nav'.
+
+\tf@toc=\write8
+\openout8 = `pain_salls.toc'.
+
+\tf@snm=\write9
+\openout9 = `pain_salls.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
  (./pain_salls.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 255.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `pain_salls.out' has not changed.
-(rerunfilecheck)             Checksum: 70A8B07524424D194C05CD83CB18C70F.
+(rerunfilecheck)             Checksum: C3E5A5C1EA5BBF2FC64EFEA6453E606A.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                pain_salls
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'pain_salls.run.xml'.
+\openout1 = `pain_salls.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 25158 strings out of 492922
- 467123 string characters out of 6138851
- 551469 words of memory out of 5000000
- 28662 multiletter control sequences out of 15000+600000
- 9702 words of font info for 50 fonts, out of 8000000 for 9000
+ 31538 strings out of 492922
+ 589188 string characters out of 6138851
+ 1032374 words of memory out of 5000000
+ 34976 multiletter control sequences out of 15000+600000
+ 9710 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,15n,66p,852b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,15n,66p,852b,1394s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on pain_salls.pdf (9 pages).
+Output written on pain_salls.pdf (11 pages).
