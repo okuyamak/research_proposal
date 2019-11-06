@@ -17,50 +17,48 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: pain_salls-blx.bib
-Database file #2: ../../bib/ne_pain.bib
-Warning--I didn't find a database entry for "unitednationsWorldPopulationAgeing2017a"
+Database file #2: ne_pain.bib
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 1 entry,
+You've used 3 entries,
             6304 wiz_defined-function locations,
-            1187 strings with 8837 characters,
-and the built_in function-call counts, 1325 in all, are:
-= -- 64
-> -- 58
-< -- 1
-+ -- 41
-- -- 24
-* -- 27
-:= -- 312
+            1201 strings with 9491 characters,
+and the built_in function-call counts, 23997 in all, are:
+= -- 2007
+> -- 296
+< -- 35
++ -- 683
+- -- 128
+* -- 1791
+:= -- 3210
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
+call.type$ -- 3
+change.case$ -- 14
 chr.to.int$ -- 34
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 91
-format.name$ -- 0
-if$ -- 289
+cite$ -- 4
+duplicate$ -- 2264
+empty$ -- 2070
+format.name$ -- 217
+if$ -- 4640
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 43
+newline$ -- 128
+num.names$ -- 76
+pop$ -- 879
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 44
 quote$ -- 0
-skip$ -- 69
+skip$ -- 370
 stack$ -- 0
-substring$ -- 127
-swap$ -- 1
-text.length$ -- 16
+substring$ -- 4019
+swap$ -- 366
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 22
+type$ -- 90
 warning$ -- 0
-while$ -- 52
+while$ -- 433
 width$ -- 0
-write$ -- 20
-(There was 1 warning)
+write$ -- 126

@@ -422,6 +422,10 @@ INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
+INPUT /usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf
+INPUT extractbb -B cropbox -O beamericonarticle.pdf
+INPUT /usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf
+INPUT /home/kenta/Dropbox/research_projects/research_proposal/logo/lund_RGB.png
 OUTPUT pain_salls.nav
 OUTPUT pain_salls.toc
 OUTPUT pain_salls.snm

@@ -16,5 +16,115 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{unitednationsWorldPopulationAgeing2017a}{book}{}
+    \name{author}{3}{}{%
+      {{hash=U}{%
+         family={{United Nations}},
+         familyi={U\bibinitperiod},
+      }}%
+      {{hash=D}{%
+         family={{Department of Economic and Social Affairs}},
+         familyi={D\bibinitperiod},
+      }}%
+      {{hash=P}{%
+         family={{Population Division}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{U+1}
+    \strng{fullhash}{UDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-92-1-151551-0}
+    \field{note}{OCLC: 1082362390}
+    \field{title}{World Population Ageing, 2017 Highlights}
+    \field{year}{2017}
+  \endentry
+
+  \entry{raggiDeterminantsMobilityPopulations2018}{article}{}
+    \name{author}{11}{}{%
+      {{hash=RA}{%
+         family={Raggi},
+         familyi={R\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Corso},
+         familyi={C\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DTL}{%
+         family={De\bibnamedelima Torres},
+         familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=QR}{%
+         family={Quintas},
+         familyi={Q\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chatterji},
+         familyi={C\bibinitperiod},
+         given={Somnath},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sainio},
+         familyi={S\bibinitperiod},
+         given={P{\"a}ivi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Martinuzzi},
+         familyi={M\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zawisza},
+         familyi={Z\bibinitperiod},
+         given={Katarzyna},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HJM}{%
+         family={Haro},
+         familyi={H\bibinitperiod},
+         given={Josep\bibnamedelima Maria},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Minicuci},
+         familyi={M\bibinitperiod},
+         given={Nadia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Leonardi},
+         familyi={L\bibinitperiod},
+         given={Matilde},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RACBDTLQRCSSPMAZKHJMMNLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.maturitas.2018.06.018
+    \endverb
+    \field{pages}{84\bibrangedash 91}
+    \field{title}{Determinants of Mobility in Populations of Older Adults:
+  {{Results}} from a Cross-Sectional Study in {{Finland}}, {{Poland}} and
+  {{Spain}}}
+    \field{volume}{115}
+    \field{journaltitle}{Maturitas}
+    \field{year}{2018}
+  \endentry
+\enddatalist
 \endinput

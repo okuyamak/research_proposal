@@ -69,8 +69,9 @@
 %  \end{frame}
 %}
 
-\usepackage[backend=bibtex]{biblatex}
-\addbibresource{../../bib/ne_pain.bib}
+\usepackage[backend=bibtex,maxnames=1,sorting=none]{biblatex}
+\bibliographystyle{abbrv}
+\bibliography{ne_pain.bib}
 
 
 \title{Neighborhood environment and chronic pain among older adults}
@@ -103,10 +104,10 @@ Shimane University}
 \begin{frame}
 	\frametitle{Introduction}
 	\begin{itemize}
-		\item World population is ageing (UN, 2017)\cite{unitednationsWorldPopulationAgeing2017a}.
+		\item World population is ageing (UN, 2017) \cite{unitednationsWorldPopulationAgeing2017a}.
 			\begin{figure}[H]
 				\centering
-				\includegraphics [width=\textwidth] {./img/pop_ageing.PNG}
+				\includegraphics [width=0.8\textwidth, height=0.8\textheight] {./img/pop_ageing.PNG}
 			\end{figure}
 	\end{itemize}
 \end{frame}
@@ -115,7 +116,7 @@ Shimane University}
 \begin{frame}
 	\frametitle{Introduction - Older adults}
 	\begin{itemize}
-		\item Longer life = more oppotunities
+		\item Longer life = more oppotunities \cite{raggiDeterminantsMobilityPopulations2018}
 			\begin{itemize}
 				\item Seek further careers, educations as individuals.
 				\item Valuable contributions to society.
@@ -131,7 +132,7 @@ Shimane University}
 		\item Life expectancy = healthy life expectancy (disability free).
 			\begin{figure}[H]
 				\centering
-				\includegraphics [width=\textwidth] {img/healthylife_jp.PNG}
+				\includegraphics [width=0.8\textwidth, height=0.6\textheight] {img/healthylife_jp.PNG}
 			\end{figure}
 	\end{itemize}
 \end{frame}
@@ -211,8 +212,6 @@ Shimane University}
 						\item The Swedish Living Condition Surveys (ULF/SILC).
 						\item Started since 1975 ~.
 						\item Changed from face-face to phone interviews in 2008 ~.
-						\item In 2008, it has been harmonized with European Statistics on Income and Living Conditions (EU-SILC).
-
 					\end{itemize} 
 			\end{itemize} 
 		\item[Study subjects] \mbox{}\par
@@ -223,6 +222,33 @@ Shimane University}
 	\end{description}
 
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Methods - Variables}
+	\begin{description}
+		\item[Outcome] \mbox{}\par
+			\begin{itemize} 
+				\item Pain, Severe pain.
+					\begin{itemize}
+						\item \textbf{2008-2013} Do you suffer from pain? Are the ailments are severe or minor? 1. Back/hips/sciatica, 2. Shoulders/neck, 3. Hands/elbows/legs/knees.
+						\item \textbf{2014-2018} Do you suffer from pain? Would you say the ailments are severe or minor? 1. Back/hips, 2. Shoulders/neck, 3. Arms/hands/legs/feet.
+					\end{itemize} 
+				\item Disease of the musculoskeletal system and connective tissue
+					\begin{itemize}
+						\item Based on ICD9. From 2012, based on ICD10. 
+						\item Ex. Rheumatoid arthritis, osteoarthritis, soft tissue, rheumatism, periostitis.
+					\end{itemize} 
+				\item Disabilities
+					\begin{itemize}
+						\item Reduced mobility, motor disability. 
+					\end{itemize}
+			\end{itemize} 
+	\end{description}
+
+\end{frame}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
